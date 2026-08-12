@@ -1,2 +1,3 @@
 # AR-bleaching-recruits
-looking at bleaching responses of coral recruits on artificial and natural reefs
+The core biological question is:
+Do juvenile corals recruiting to artificial reefs show different bleaching susceptibility from mature corals on nearby natural reefs, and does that difference depend on coral genus and bleaching progression?
