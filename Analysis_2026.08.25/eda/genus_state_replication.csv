@@ -1,0 +1,221 @@
+location,site,genus,reef_type,bleaching_period,coral_points,states_present,zero_states,min_nonzero_state_points
+Koh Tao,Mango,Acropora,Artificial,Start,30,1,0,30
+Koh Tao,Mango,Acropora,Artificial,Middle,36,1,0,36
+Koh Tao,Mango,Acropora,Artificial,Late,36,1,0,36
+Koh Tao,Mango,Acropora,Artificial,Post,2,1,0,2
+Koh Tao,Mango,Acropora,Natural,Start,37,1,0,37
+Koh Tao,Mango,Acropora,Natural,Middle,82,1,0,82
+Koh Tao,Mango,Acropora,Natural,Late,180,1,0,180
+Koh Tao,Mango,Acropora,Natural,Post,183,1,0,183
+Koh Tao,Mango,Ctenactis,Natural,Start,1,1,0,1
+Koh Tao,Mango,Ctenactis,Natural,Late,2,1,0,2
+Koh Tao,Mango,Cycloseris,Artificial,Late,1,1,0,1
+Koh Tao,Mango,Danafungia,Natural,Post,4,1,0,4
+Koh Tao,Mango,Diploastrea,Natural,Start,168,1,0,168
+Koh Tao,Mango,Diploastrea,Natural,Middle,186,1,0,186
+Koh Tao,Mango,Diploastrea,Natural,Late,72,1,0,72
+Koh Tao,Mango,Diploastrea,Natural,Post,57,1,0,57
+Koh Tao,Mango,Dipsastrea,Artificial,Start,33,1,0,33
+Koh Tao,Mango,Dipsastrea,Artificial,Middle,58,1,0,58
+Koh Tao,Mango,Dipsastrea,Artificial,Late,31,1,0,31
+Koh Tao,Mango,Dipsastrea,Artificial,Post,18,1,0,18
+Koh Tao,Mango,Echinopora,Natural,Late,2,1,0,2
+Koh Tao,Mango,Favites,Artificial,Start,12,1,0,12
+Koh Tao,Mango,Favites,Artificial,Middle,9,1,0,9
+Koh Tao,Mango,Favites,Artificial,Late,6,1,0,6
+Koh Tao,Mango,Favites,Artificial,Post,1,1,0,1
+Koh Tao,Mango,Favites,Natural,Start,4,1,0,4
+Koh Tao,Mango,Favites,Natural,Middle,2,1,0,2
+Koh Tao,Mango,Favites,Natural,Post,2,1,0,2
+Koh Tao,Mango,Fungia,Natural,Start,1,1,0,1
+Koh Tao,Mango,Fungia,Natural,Post,9,1,0,9
+Koh Tao,Mango,Gardineroseris,Natural,Late,16,1,0,16
+Koh Tao,Mango,Goniastrea,Artificial,Start,1,1,0,1
+Koh Tao,Mango,Goniastrea,Artificial,Late,5,1,0,5
+Koh Tao,Mango,Goniastrea,Natural,Middle,10,1,0,10
+Koh Tao,Mango,Goniastrea,Natural,Late,2,1,0,2
+Koh Tao,Mango,Leptastrea,Artificial,Start,243,1,0,243
+Koh Tao,Mango,Leptastrea,Artificial,Middle,275,1,0,275
+Koh Tao,Mango,Leptastrea,Artificial,Late,349,1,0,349
+Koh Tao,Mango,Leptastrea,Artificial,Post,126,1,0,126
+Koh Tao,Mango,Lithophyllon,Artificial,Start,37,1,0,37
+Koh Tao,Mango,Lithophyllon,Artificial,Middle,47,1,0,47
+Koh Tao,Mango,Lithophyllon,Artificial,Late,7,1,0,7
+Koh Tao,Mango,Lobophyllia,Natural,Start,6,1,0,6
+Koh Tao,Mango,Lobophyllia,Natural,Late,25,1,0,25
+Koh Tao,Mango,Lobophyllia,Natural,Post,8,1,0,8
+Koh Tao,Mango,Merulina,Natural,Late,1,1,0,1
+Koh Tao,Mango,Merulina,Natural,Post,9,1,0,9
+Koh Tao,Mango,Montipora,Artificial,Start,21,1,0,21
+Koh Tao,Mango,Montipora,Artificial,Middle,39,1,0,39
+Koh Tao,Mango,Montipora,Artificial,Late,56,1,0,56
+Koh Tao,Mango,Montipora,Natural,Middle,2,1,0,2
+Koh Tao,Mango,Montipora,Natural,Late,1,1,0,1
+Koh Tao,Mango,Montipora,Natural,Post,3,1,0,3
+Koh Tao,Mango,Paragoniastrea,Artificial,Start,6,1,0,6
+Koh Tao,Mango,Pavona,Artificial,Start,3,1,0,3
+Koh Tao,Mango,Pavona,Artificial,Middle,10,1,0,10
+Koh Tao,Mango,Pavona,Artificial,Late,7,1,0,7
+Koh Tao,Mango,Pavona,Natural,Start,57,1,0,57
+Koh Tao,Mango,Pavona,Natural,Middle,16,1,0,16
+Koh Tao,Mango,Pavona,Natural,Late,55,1,0,55
+Koh Tao,Mango,Pavona,Natural,Post,69,1,0,69
+Koh Tao,Mango,Platygyra,Artificial,Start,98,1,0,98
+Koh Tao,Mango,Platygyra,Artificial,Middle,110,1,0,110
+Koh Tao,Mango,Platygyra,Artificial,Late,106,1,0,106
+Koh Tao,Mango,Platygyra,Artificial,Post,22,1,0,22
+Koh Tao,Mango,Platygyra,Natural,Start,4,1,0,4
+Koh Tao,Mango,Platygyra,Natural,Middle,4,1,0,4
+Koh Tao,Mango,Platygyra,Natural,Late,3,1,0,3
+Koh Tao,Mango,Platygyra,Natural,Post,3,1,0,3
+Koh Tao,Mango,Pleuractis,Artificial,Late,4,1,0,4
+Koh Tao,Mango,Pleuractis,Natural,Late,1,1,0,1
+Koh Tao,Mango,Pleuractis,Natural,Post,2,1,0,2
+Koh Tao,Mango,Pocillopora,Artificial,Start,9,1,0,9
+Koh Tao,Mango,Pocillopora,Artificial,Middle,5,1,0,5
+Koh Tao,Mango,Pocillopora,Artificial,Late,6,1,0,6
+Koh Tao,Mango,Pocillopora,Artificial,Post,3,1,0,3
+Koh Tao,Mango,Pocillopora,Natural,Start,23,1,0,23
+Koh Tao,Mango,Pocillopora,Natural,Middle,14,1,0,14
+Koh Tao,Mango,Pocillopora,Natural,Late,14,1,0,14
+Koh Tao,Mango,Pocillopora,Natural,Post,10,1,0,10
+Koh Tao,Mango,Polyphyllia,Artificial,Post,1,1,0,1
+Koh Tao,Mango,Porites,Artificial,Start,54,1,0,54
+Koh Tao,Mango,Porites,Artificial,Middle,125,1,0,125
+Koh Tao,Mango,Porites,Artificial,Late,83,1,0,83
+Koh Tao,Mango,Porites,Artificial,Post,33,1,0,33
+Koh Tao,Mango,Porites,Natural,Start,584,1,0,584
+Koh Tao,Mango,Porites,Natural,Middle,509,1,0,509
+Koh Tao,Mango,Porites,Natural,Late,249,1,0,249
+Koh Tao,Mango,Porites,Natural,Post,311,1,0,311
+Koh Tao,Tanote,Acropora,Artificial,Middle,4,1,0,4
+Koh Tao,Tanote,Acropora,Natural,Start,98,1,0,98
+Koh Tao,Tanote,Acropora,Natural,Middle,10,1,0,10
+Koh Tao,Tanote,Acropora,Natural,Late,49,1,0,49
+Koh Tao,Tanote,Acropora,Natural,Post,71,1,0,71
+Koh Tao,Tanote,Astreopora,Natural,Start,21,1,0,21
+Koh Tao,Tanote,Astreopora,Natural,Post,8,1,0,8
+Koh Tao,Tanote,Coelastrea,Artificial,Middle,17,1,0,17
+Koh Tao,Tanote,Coelastrea,Artificial,Late,3,1,0,3
+Koh Tao,Tanote,Coelastrea,Artificial,Post,18,1,0,18
+Koh Tao,Tanote,Cyphastrea,Natural,Start,1,1,0,1
+Koh Tao,Tanote,Diploastrea,Natural,Start,184,1,0,184
+Koh Tao,Tanote,Diploastrea,Natural,Middle,244,1,0,244
+Koh Tao,Tanote,Diploastrea,Natural,Late,465,1,0,465
+Koh Tao,Tanote,Diploastrea,Natural,Post,670,1,0,670
+Koh Tao,Tanote,Dipsastrea,Artificial,Start,12,1,0,12
+Koh Tao,Tanote,Dipsastrea,Artificial,Middle,9,1,0,9
+Koh Tao,Tanote,Dipsastrea,Artificial,Late,9,1,0,9
+Koh Tao,Tanote,Dipsastrea,Artificial,Post,4,1,0,4
+Koh Tao,Tanote,Dipsastrea,Natural,Start,1,1,0,1
+Koh Tao,Tanote,Dipsastrea,Natural,Middle,6,1,0,6
+Koh Tao,Tanote,Dipsastrea,Natural,Late,7,1,0,7
+Koh Tao,Tanote,Dipsastrea,Natural,Post,2,1,0,2
+Koh Tao,Tanote,Echinopora,Natural,Late,16,1,0,16
+Koh Tao,Tanote,Favites,Artificial,Start,6,1,0,6
+Koh Tao,Tanote,Favites,Artificial,Middle,1,1,0,1
+Koh Tao,Tanote,Favites,Artificial,Late,19,1,0,19
+Koh Tao,Tanote,Favites,Artificial,Post,1,1,0,1
+Koh Tao,Tanote,Favites,Natural,Start,2,1,0,2
+Koh Tao,Tanote,Favites,Natural,Middle,19,1,0,19
+Koh Tao,Tanote,Favites,Natural,Late,7,1,0,7
+Koh Tao,Tanote,Favites,Natural,Post,28,1,0,28
+Koh Tao,Tanote,Galaxea,Natural,Start,6,1,0,6
+Koh Tao,Tanote,Galaxea,Natural,Middle,3,1,0,3
+Koh Tao,Tanote,Galaxea,Natural,Post,3,1,0,3
+Koh Tao,Tanote,Goniastrea,Artificial,Start,34,1,0,34
+Koh Tao,Tanote,Goniastrea,Artificial,Middle,17,1,0,17
+Koh Tao,Tanote,Goniastrea,Artificial,Late,35,1,0,35
+Koh Tao,Tanote,Goniastrea,Artificial,Post,39,1,0,39
+Koh Tao,Tanote,Goniastrea,Natural,Middle,6,1,0,6
+Koh Tao,Tanote,Goniastrea,Natural,Late,32,1,0,32
+Koh Tao,Tanote,Goniastrea,Natural,Post,14,1,0,14
+Koh Tao,Tanote,Goniopora,Natural,Middle,2,1,0,2
+Koh Tao,Tanote,Leptastrea,Artificial,Start,7,1,0,7
+Koh Tao,Tanote,Leptastrea,Artificial,Middle,15,1,0,15
+Koh Tao,Tanote,Leptastrea,Artificial,Late,22,1,0,22
+Koh Tao,Tanote,Leptastrea,Artificial,Post,4,1,0,4
+Koh Tao,Tanote,Leptastrea,Natural,Middle,3,1,0,3
+Koh Tao,Tanote,Leptastrea,Natural,Late,1,1,0,1
+Koh Tao,Tanote,Leptastrea,Natural,Post,1,1,0,1
+Koh Tao,Tanote,Leptoseris,Natural,Late,2,1,0,2
+Koh Tao,Tanote,Lobophyllia,Artificial,Start,3,1,0,3
+Koh Tao,Tanote,Lobophyllia,Artificial,Middle,10,1,0,10
+Koh Tao,Tanote,Lobophyllia,Artificial,Post,8,1,0,8
+Koh Tao,Tanote,Lobophyllia,Natural,Start,23,1,0,23
+Koh Tao,Tanote,Lobophyllia,Natural,Middle,79,1,0,79
+Koh Tao,Tanote,Lobophyllia,Natural,Late,13,1,0,13
+Koh Tao,Tanote,Lobophyllia,Natural,Post,22,1,0,22
+Koh Tao,Tanote,Merulina,Natural,Start,4,1,0,4
+Koh Tao,Tanote,Merulina,Natural,Middle,3,1,0,3
+Koh Tao,Tanote,Merulina,Natural,Late,9,1,0,9
+Koh Tao,Tanote,Merulina,Natural,Post,8,1,0,8
+Koh Tao,Tanote,Montipora,Artificial,Start,31,1,0,31
+Koh Tao,Tanote,Montipora,Artificial,Middle,28,1,0,28
+Koh Tao,Tanote,Montipora,Artificial,Late,20,1,0,20
+Koh Tao,Tanote,Montipora,Natural,Middle,10,1,0,10
+Koh Tao,Tanote,Montipora,Natural,Late,9,1,0,9
+Koh Tao,Tanote,Montipora,Natural,Post,16,1,0,16
+Koh Tao,Tanote,Pachyseris,Natural,Late,2,1,0,2
+Koh Tao,Tanote,Pavona,Natural,Start,40,1,0,40
+Koh Tao,Tanote,Pavona,Natural,Middle,14,1,0,14
+Koh Tao,Tanote,Pavona,Natural,Late,18,1,0,18
+Koh Tao,Tanote,Pavona,Natural,Post,27,1,0,27
+Koh Tao,Tanote,Pectinia,Natural,Late,1,1,0,1
+Koh Tao,Tanote,Platygyra,Artificial,Start,110,1,0,110
+Koh Tao,Tanote,Platygyra,Artificial,Middle,100,1,0,100
+Koh Tao,Tanote,Platygyra,Artificial,Late,117,1,0,117
+Koh Tao,Tanote,Platygyra,Artificial,Post,105,1,0,105
+Koh Tao,Tanote,Platygyra,Natural,Start,56,1,0,56
+Koh Tao,Tanote,Platygyra,Natural,Middle,49,1,0,49
+Koh Tao,Tanote,Platygyra,Natural,Late,75,1,0,75
+Koh Tao,Tanote,Platygyra,Natural,Post,39,1,0,39
+Koh Tao,Tanote,Pocillopora,Artificial,Start,6,1,0,6
+Koh Tao,Tanote,Pocillopora,Artificial,Middle,3,1,0,3
+Koh Tao,Tanote,Pocillopora,Artificial,Late,2,1,0,2
+Koh Tao,Tanote,Pocillopora,Artificial,Post,12,1,0,12
+Koh Tao,Tanote,Pocillopora,Natural,Middle,2,1,0,2
+Koh Tao,Tanote,Pocillopora,Natural,Late,5,1,0,5
+Koh Tao,Tanote,Pocillopora,Natural,Post,12,1,0,12
+Koh Tao,Tanote,Porites,Artificial,Start,3,1,0,3
+Koh Tao,Tanote,Porites,Artificial,Middle,13,1,0,13
+Koh Tao,Tanote,Porites,Artificial,Late,11,1,0,11
+Koh Tao,Tanote,Porites,Artificial,Post,8,1,0,8
+Koh Tao,Tanote,Porites,Natural,Start,45,1,0,45
+Koh Tao,Tanote,Porites,Natural,Middle,30,1,0,30
+Koh Tao,Tanote,Porites,Natural,Late,157,1,0,157
+Koh Tao,Tanote,Porites,Natural,Post,76,1,0,76
+Koh Tao,Tanote,Turbinaria,Natural,Middle,4,1,0,4
+Rayong,Rayong,Acropora,Artificial,Middle,82,1,0,82
+Rayong,Rayong,Astreopora,Artificial,Middle,3,1,0,3
+Rayong,Rayong,Astreopora,Natural,Middle,65,1,0,65
+Rayong,Rayong,Coelastrea,Artificial,Middle,1097,1,0,1097
+Rayong,Rayong,Cyphastrea,Artificial,Middle,19,1,0,19
+Rayong,Rayong,Dipsastrea,Artificial,Middle,415,1,0,415
+Rayong,Rayong,Dipsastrea,Natural,Middle,24,1,0,24
+Rayong,Rayong,Duncanopsammia,Artificial,Middle,18,1,0,18
+Rayong,Rayong,Favites,Artificial,Middle,413,1,0,413
+Rayong,Rayong,Favites,Natural,Middle,37,1,0,37
+Rayong,Rayong,Goniastrea,Artificial,Middle,24,1,0,24
+Rayong,Rayong,Goniastrea,Natural,Middle,90,1,0,90
+Rayong,Rayong,Hydnophora,Artificial,Middle,105,1,0,105
+Rayong,Rayong,Hydnophora,Natural,Middle,34,1,0,34
+Rayong,Rayong,Leptastrea,Artificial,Middle,221,1,0,221
+Rayong,Rayong,Lobophyllia,Artificial,Middle,78,1,0,78
+Rayong,Rayong,Lobophyllia,Natural,Middle,79,1,0,79
+Rayong,Rayong,Merulina,Natural,Middle,14,1,0,14
+Rayong,Rayong,Oulastrea,Artificial,Middle,46,1,0,46
+Rayong,Rayong,Pavona,Artificial,Middle,5,1,0,5
+Rayong,Rayong,Pavona,Natural,Middle,141,1,0,141
+Rayong,Rayong,Pectinia,Natural,Middle,4,1,0,4
+Rayong,Rayong,Platygyra,Artificial,Middle,618,1,0,618
+Rayong,Rayong,Platygyra,Natural,Middle,35,1,0,35
+Rayong,Rayong,Plesiastrea,Artificial,Middle,9,1,0,9
+Rayong,Rayong,Pocillopora,Artificial,Middle,90,1,0,90
+Rayong,Rayong,Pocillopora,Natural,Middle,7,1,0,7
+Rayong,Rayong,Podabacia,Natural,Middle,9,1,0,9
+Rayong,Rayong,Porites,Artificial,Middle,981,1,0,981
+Rayong,Rayong,Porites,Natural,Middle,746,1,0,746
+Rayong,Rayong,Psammocora,Artificial,Middle,5,1,0,5
+Rayong,Rayong,Psammocora,Natural,Middle,1,1,0,1
+Rayong,Rayong,Turbinaria,Artificial,Middle,80,1,0,80

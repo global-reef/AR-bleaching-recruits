@@ -2,7 +2,7 @@
 
 #### Load setup ####
 
-source("00_SETUP.R")
+# source("00_SETUP.R")
 
 #### File metadata ####
 
@@ -138,13 +138,12 @@ reshape_nr_sheet <- function(file, sheet, location, site, date) {
   
   raw <- suppressMessages(read_excel(file, sheet = sheet, col_names = FALSE))
   
-  # Locate rows containing quadrat headers (Q1-Q40). This avoids relying on
-  # fixed column positions, which differ slightly among the source workbooks.
+  # Each row containing Q1-Q40 marks the start of a separate transect.
   header_rows <- which(
     apply(raw, 1, \(x) any(str_detect(as.character(x), "^Q[0-9]+$"), na.rm = TRUE))
   )
   
-  map_dfr(header_rows, \(header_row) {
+  map2_dfr(header_rows, seq_along(header_rows), \(header_row, transect_id) {
     
     quadrat_cols <- which(
       str_detect(as.character(raw[header_row, ]), "^Q[0-9]+$")
@@ -157,7 +156,7 @@ reshape_nr_sheet <- function(file, sheet, location, site, date) {
       )
       
       tibble(
-        transect = 1L,
+        transect = as.integer(transect_id),
         quadrat = quadrat,
         point = 1:40,
         substrate = as.character(raw[[quadrat_col]][(header_row + 2):(header_row + 41)]),
@@ -265,4 +264,6 @@ cpce_long %>%
     points = n(),
     .groups = "drop"
   )
-
+str(cpce_long)
+unique(cpce_long$substrate)
+unique(cpce_long$health)
