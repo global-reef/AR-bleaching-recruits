@@ -8,6 +8,7 @@ suppressPackageStartupMessages({
   library(glmmTMB)  
   library(coin)
   library(vegan)
+  library(ggalluvial)
   library(DHARMa)
   library(emmeans)
   library(mclogit)
