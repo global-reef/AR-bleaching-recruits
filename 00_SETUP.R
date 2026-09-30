@@ -5,7 +5,9 @@
 suppressPackageStartupMessages({
   library(readxl)
   library(janitor)
-  library(glmmTMB)
+  library(glmmTMB)  
+  library(coin)
+  library(vegan)
   library(DHARMa)
   library(emmeans)
   library(mclogit)
@@ -14,7 +16,7 @@ suppressPackageStartupMessages({
 
 #### Analysis date ####
 
-analysis_date <- "2026.08.25" # change every time 
+analysis_date <- "2026.09.30" # change every time 
 
 #### Directories ####
 
@@ -54,6 +56,24 @@ theme_clean <- theme_minimal(base_family = "Arial") +
 
 
 #### Colour palettes ####
+# colour blind accessible palettes 
 
+## health condition 
+# option A
+condition_palette2 <- c(
+  H = "#2A2B59",
+  PBL = "#3B4F7A",
+  FBL = "#5E6FA3",
+  PRK = "#8A8BC3",
+  FRK = "#C5B4D9"
+)
+# option B 
+condition_palette <- c(
+  H = "#E8D8B5",
+  PBL = "#B9C7B5",
+  FBL = "#7FA9A8",
+  PRK = "#477F91",
+  FRK = "#1F4E6B"
+)
 
 #### Shared helper functions ####

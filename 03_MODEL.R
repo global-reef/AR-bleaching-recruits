@@ -1,4 +1,4 @@
-### 03. MULTINOMIAL MODELS ####
+### 01. MULTINOMIAL MODELS ####
 
 #### Reference levels ####
 
@@ -28,7 +28,7 @@ kt_data <- condition_data %>%
 random_formula <- ~ 1 | quadrat_id
 category_covariance <- "diagonal"
 
-#### Model 1: matched location comparison ####
+#### M1: matched location comparison ####
 
 # Compare AR recruits and mature NR corals between Koh Tao and Rayong using only
 # the temporally matched Middle bleaching period. The reef_type × location
@@ -57,7 +57,7 @@ model_1_check
 
 model_1$VarCov
 
-#### Model 2: Koh Tao temporal comparison ####
+#### M2: Koh Tao temporal comparison ####
 
 # Test whether condition trajectories through the bleaching event differ between
 # AR recruits and mature NR corals, while allowing those trajectories to differ
@@ -84,140 +84,378 @@ model_2_check <- tibble(
 
 model_2_check
 
-#### Model 3: genus-specific matched location comparison ####
 
-model_3_genera <- c(
-  "Porites",
-  "Platygyra",
-  "Pocillopora",
-  "Favites",
-  "Goniastrea",
-  "Dipsastrea",
-  "Lobophyllia"
-)
 
-genus_location_quadrat <- matched_location_data %>%
-  filter(genus %in% model_3_genera) %>%
-  group_by(genus, location, reef_type, quadrat_id) %>%
+### 02. GENUS-SPECIFIC NONPARAMETRIC TESTS ####
+#### Quadrat-level condition composition ####
+
+q3_condition_quadrat <- condition_data %>%
+  filter(bleaching_period == "Middle", !is.na(genus)) %>%
+  count(location, site, genus, reef_type, quadrat_id, health, name = "points") %>%
+  group_by(location, site, genus, reef_type, quadrat_id) %>%
+  complete(health = condition_codes, fill = list(points = 0)) %>%
+  mutate(proportion = points / sum(points)) %>%
+  ungroup() %>%
+  select(-points) %>%
+  pivot_wider(names_from = health, values_from = proportion, values_fill = 0)
+
+
+#### Genus support ####
+
+q3_genera <- q3_condition_quadrat %>%
+  distinct(location, genus, reef_type) %>%
+  count(location, genus, name = "reef_types") %>%
+  filter(reef_types == 2) %>%
+  select(location, genus)
+
+
+#### PERMANOVA ####
+
+set.seed(42)
+n_perm <- 99999
+
+q3_permanova_test <- function(location_i, genus_i) {
+  
+  genus_data <- q3_condition_quadrat %>%
+    filter(location == location_i, genus == genus_i) %>%
+    droplevels()
+  
+  condition_matrix <- genus_data %>%
+    select(H, PBL, FBL, PRK, FRK)
+  
+  if (n_distinct(genus_data$site) > 1) {
+    test <- vegan::adonis2(
+      condition_matrix ~ reef_type,
+      data = genus_data,
+      permutations = n_perm,
+      method = "bray",
+      strata = genus_data$site
+    )
+  } else {
+    test <- vegan::adonis2(
+      condition_matrix ~ reef_type,
+      data = genus_data,
+      permutations = n_perm,
+      method = "bray"
+    )
+  }
+  
+  as.data.frame(test) %>%
+    rownames_to_column("term") %>%
+    slice(1) %>%
+    transmute(
+      location = location_i,
+      genus = genus_i,
+      df = Df,
+      r2 = R2,
+      pseudo_f = F,
+      p = `Pr(>F)`
+    )
+}
+
+q3_results <- map2_dfr(
+  q3_genera$location,
+  q3_genera$genus,
+  q3_permanova_test
+) %>%
+  group_by(location) %>%
+  mutate(p_adj = p.adjust(p, method = "BH")) %>%
+  ungroup()
+
+q3_results %>%
+  arrange(location, p_adj) %>%
+  print(n = Inf)
+
+
+#### PERMANOVA dispersion checks ####
+
+q3_dispersion_test <- function(location_i, genus_i) {
+  
+  genus_data <- q3_condition_quadrat %>%
+    filter(location == location_i, genus == genus_i) %>%
+    droplevels()
+  
+  condition_dist <- vegan::vegdist(
+    genus_data %>% select(H, PBL, FBL, PRK, FRK),
+    method = "bray"
+  )
+  
+  dispersion <- vegan::betadisper(
+    condition_dist,
+    genus_data$reef_type,
+    add = "lingoes"
+  )
+  
+  test <- vegan::permutest(
+    dispersion,
+    permutations = n_perm
+  )
+  
+  tibble(
+    location = location_i,
+    genus = genus_i,
+    dispersion_f = test$tab[1, "F"],
+    dispersion_p = test$tab[1, "Pr(>F)"]
+  )
+}
+
+q3_dispersion <- map2_dfr(
+  q3_genera$location,
+  q3_genera$genus,
+  q3_dispersion_test
+) %>%
+  group_by(location) %>%
+  mutate(dispersion_p_adj = p.adjust(dispersion_p, method = "BH")) %>%
+  ungroup()
+
+q3_dispersion %>%
+  arrange(location, dispersion_p_adj) %>%
+  print(n = Inf)
+
+q3_results <- q3_results %>%
+  left_join(q3_dispersion, by = c("location", "genus"))
+
+q3_results %>%
+  arrange(location, p_adj) %>%
+  print(n = Inf)
+
+#### b: Quadrat-level susceptibility ####
+
+genus_quadrat <- condition_data %>%
+  filter(!is.na(genus)) %>%
+  group_by(location, site, genus, reef_type, bleaching_period, quadrat_id) %>%
   summarise(
-    affected_points = sum(affected == 1),
-    healthy_points = sum(affected == 0),
+    coral_points = n(),
+    affected_prop = mean(affected),
     .groups = "drop"
   )
 
-model_3 <- map(
-  model_3_genera,
-  function(g) {
+# check 
+
+
+#### b-Q3: AR vs NR within genus and location ####
+
+n_perm <- 99999 
+set.seed(42)
+
+
+permute_reef_difference <- function(df, n_perm) {
+  reef_type <- as.character(df$reef_type)
+  affected_prop <- df$affected_prop
+  
+  n_artificial <- sum(reef_type == "Artificial")
+  n_natural <- sum(reef_type == "Natural")
+  
+  artificial_mean <- mean(affected_prop[reef_type == "Artificial"])
+  natural_mean <- mean(affected_prop[reef_type == "Natural"])
+  observed <- artificial_mean - natural_mean
+  
+  if (n_distinct(affected_prop) == 1) {
+    return(tibble(
+      artificial_quadrats = n_artificial,
+      natural_quadrats = n_natural,
+      artificial_mean = artificial_mean,
+      natural_mean = natural_mean,
+      difference = observed,
+      p = 1
+    ))
+  }
+  
+  strata <- split(df, df$site)
+  y <- lapply(strata, \(x) x$affected_prop)
+  n_artificial_site <- vapply(
+    strata,
+    \(x) sum(x$reef_type == "Artificial"),
+    integer(1)
+  )
+  
+  total_affected <- sum(affected_prop)
+  
+  permuted <- replicate(n_perm, {
+    artificial_sum <- sum(vapply(
+      seq_along(y),
+      \(i) sum(sample(y[[i]], n_artificial_site[i])),
+      numeric(1)
+    ))
     
-    genus_data <- genus_location_quadrat %>%
+    artificial_sum / n_artificial -
+      (total_affected - artificial_sum) / n_natural
+  })
+  
+  tibble(
+    artificial_quadrats = n_artificial,
+    natural_quadrats = n_natural,
+    artificial_mean = artificial_mean,
+    natural_mean = natural_mean,
+    difference = observed,
+    p = (sum(abs(permuted) >= abs(observed)) + 1) / (n_perm + 1)
+  )
+}
+
+q3_tests <- genus_quadrat %>%
+  filter(bleaching_period == "Middle") %>%
+  group_by(location, genus) %>%
+  filter(n_distinct(reef_type) == 2) %>%
+  group_modify(~ permute_reef_difference(.x, n_perm)) %>%
+  ungroup() %>%
+  group_by(location) %>%
+  mutate(p_adj = p.adjust(p, method = "BH")) %>%
+  ungroup()
+
+q3_tests %>%
+  arrange(location, p_adj) %>%
+  print(n = Inf)
+
+### 03. Q4 GENUS-SPECIFIC CONDITION TRAJECTORIES ####
+
+#### Quadrat-level five-state composition ####
+
+q4_condition_quadrat <- condition_data %>%
+  filter(location == "Koh Tao", !is.na(genus)) %>%
+  count(
+    site, genus, reef_type, bleaching_period, quadrat_id, health,
+    name = "points"
+  ) %>%
+  group_by(site, genus, reef_type, bleaching_period, quadrat_id) %>%
+  complete(health = condition_codes, fill = list(points = 0)) %>%
+  mutate(proportion = points / sum(points)) %>%
+  ungroup() %>%
+  select(-points) %>%
+  pivot_wider(
+    names_from = health,
+    values_from = proportion,
+    values_fill = 0
+  )
+
+
+#### Genus support ####
+
+# The interaction requires both reef types to be represented in multiple periods.
+q4_support <- q4_condition_quadrat %>%
+  count(genus, bleaching_period, reef_type, name = "quadrats") %>%
+  group_by(genus, bleaching_period) %>%
+  summarise(
+    both_reef_types = n_distinct(reef_type) == 2,
+    min_quadrats = min(quadrats),
+    .groups = "drop"
+  ) %>%
+  group_by(genus) %>%
+  summarise(
+    periods = n_distinct(bleaching_period),
+    periods_both_reef_types = sum(both_reef_types),
+    min_quadrats = min(min_quadrats),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(periods_both_reef_types), desc(min_quadrats))
+
+q4_support %>% print(n = Inf)
+
+q4_genera <- q4_support %>%
+  filter(periods_both_reef_types >= 2) %>%
+  pull(genus)
+
+
+#### Five-state trajectories ####
+
+# Means are calculated across quadrats so CPCE points remain subsamples rather
+# than being treated as independent biological replicates.
+q4_trajectories <- q4_condition_quadrat %>%
+  filter(genus %in% q4_genera) %>%
+  group_by(genus, reef_type, bleaching_period) %>%
+  summarise(
+    quadrats = n(),
+    across(c(H, PBL, FBL, PRK, FRK), mean),
+    .groups = "drop"
+  )
+
+q4_trajectories %>%
+  arrange(genus, reef_type, bleaching_period) %>%
+  print(n = Inf)
+
+
+#### PERMANOVA ####
+
+set.seed(42)
+n_perm <- 99999
+
+# Restrict each genus to bleaching periods where both reef types are represented.
+q4_permanova_data <- q4_condition_quadrat %>%
+  filter(genus %in% q4_genera) %>%
+  group_by(genus, bleaching_period) %>%
+  filter(n_distinct(reef_type) == 2) %>%
+  ungroup()
+
+q4_permanova <- set_names(q4_genera) %>%
+  map(function(g) {
+    
+    genus_data <- q4_permanova_data %>%
       filter(genus == g) %>%
       droplevels()
     
-    glmmTMB(
-      cbind(affected_points, healthy_points) ~ reef_type * location,
-      family = betabinomial(link = "logit"),
-      data = genus_data
-    )
-  }
-)
-
-names(model_3) <- model_3_genera
-
-##### Model 3 diagnostics ####
-# check fits 
-model_3_checks <- imap_dfr(
-  model_3,
-  ~ tibble(
-    genus = .y,
-    convergence_code = .x$fit$convergence,
-    pd_hessian = .x$sdr$pdHess,
-    finite_coefficients = all(is.finite(fixef(.x)$cond)),
-    max_abs_beta = max(abs(fixef(.x)$cond))
-  )
-)
-
-model_3_checks
-# inspect dispersion 
-imap_dfr(
-  model_3,
-  ~ tibble(
-    genus = .y,
-    dispersion = sigma(.x)
-  )
-)
-
-# print summaries 
-imap(
-  model_3,
-  ~ {
-    cat("\n\n###", .y, "###\n")
-    print(summary(.x))
-  }
-)
-
-#### Koh Tao site consistency ####
-
-kt_middle_quadrat <- matched_location_data %>%
-  filter(location == "Koh Tao") %>%
-  group_by(site, reef_type, quadrat_id) %>%
-  summarise(
-    affected_points = sum(affected == 1),
-    healthy_points = sum(affected == 0),
-    .groups = "drop"
-  )
-
-kt_site_check <- glmmTMB(
-  cbind(affected_points, healthy_points) ~ reef_type * site,
-  family = betabinomial(link = "logit"),
-  data = kt_middle_quadrat
-)
-
-summary(kt_site_check)
-#### Model 4: genus-specific Koh Tao temporal susceptibility ####
-
-model_4_genera <- candidate_genera
-
-genus_temporal_quadrat <- kt_data %>%
-  filter(genus %in% model_4_genera) %>%
-  group_by(genus, site, reef_type, bleaching_period, quadrat_id) %>%
-  summarise(
-    affected_points = sum(affected == 1),
-    healthy_points = sum(affected == 0),
-    .groups = "drop"
-  )
-
-model_4 <- map(
-  model_4_genera,
-  function(g) {
+    condition_matrix <- genus_data %>%
+      select(H, PBL, FBL, PRK, FRK)
     
-    genus_data <- genus_temporal_quadrat %>%
+    vegan::adonis2(
+      condition_matrix ~ site + reef_type * bleaching_period,
+      data = genus_data,
+      permutations = n_perm,
+      method = "bray",
+      strata = genus_data$site,
+      by = "margin"
+    )
+  })
+
+q4_permanova_results <- imap_dfr(
+  q4_permanova,
+  ~ as.data.frame(.x) %>%
+    rownames_to_column("term") %>%
+    filter(term %in% c(
+      "reef_type",
+      "bleaching_period",
+      "reef_type:bleaching_period"
+    )) %>%
+    transmute(
+      genus = .y,
+      term,
+      df = Df,
+      r2 = R2,
+      pseudo_f = F,
+      p = `Pr(>F)`
+    )
+) %>%
+  group_by(term) %>%
+  mutate(p_adj = p.adjust(p, method = "BH")) %>%
+  ungroup()
+
+q4_permanova_results %>%
+  arrange(term, p_adj) %>%
+  print(n = Inf)
+
+#### PERMANOVA dispersion checks ####
+
+q4_dispersion <- set_names(q4_genera) %>%
+  map(function(g) {
+    
+    genus_data <- q4_permanova_data %>%
       filter(genus == g) %>%
       droplevels()
     
-    glmmTMB(
-      cbind(affected_points, healthy_points) ~
-        reef_type * bleaching_period + site,
-      family = betabinomial(link = "logit"),
-      data = genus_data
+    condition_dist <- vegan::vegdist(
+      genus_data %>% select(H, PBL, FBL, PRK, FRK),
+      method = "bray"
     )
-  }
-)
+    
+    group <- interaction(
+      genus_data$reef_type,
+      genus_data$bleaching_period,
+      drop = TRUE
+    )
+    
+    dispersion <- vegan::betadisper(condition_dist, group)
+    
+    list(
+      dispersion = dispersion,
+      test = vegan::permutest(dispersion, permutations = n_perm)
+    )
+  })
 
-names(model_4) <- model_4_genera
-
-
-##### Model 4 diagnostics ####
-
-model_4_checks <- imap_dfr(
-  model_4,
-  ~ tibble(
-    genus = .y,
-    convergence_code = .x$fit$convergence,
-    pd_hessian = .x$sdr$pdHess,
-    finite_coefficients = all(is.finite(fixef(.x)$cond)),
-    max_abs_beta = max(abs(fixef(.x)$cond)),
-    dispersion = sigma(.x)
-  )
-)
-
-model_4_checks

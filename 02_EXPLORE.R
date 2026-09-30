@@ -298,6 +298,24 @@ candidate_genus_states %>%
   arrange(genus, reef_type, bleaching_period) %>%
   print(n = Inf)
 
+#### Genus binary-response support ####
+# this will really tell us what the genus-based models can support 
+
+genus_binary_support <- condition_data %>%
+  filter(!is.na(genus)) %>%
+  group_by(location, genus, reef_type, bleaching_period) %>%
+  summarise(
+    coral_points = n(),
+    quadrats = n_distinct(quadrat_id),
+    healthy = sum(affected == 0),
+    affected = sum(affected == 1),
+    .groups = "drop"
+  )
+
+genus_binary_support %>%
+  arrange(location, genus, reef_type, bleaching_period) %>%
+  print(n = Inf)
+
 #### Potential confounding ####
 
 # Reef type is structurally confounded with life stage:
@@ -316,6 +334,23 @@ condition_data %>%
   mutate(proportion = n / sum(n)) %>%
   arrange(location, reef_type, desc(proportion)) %>%
   ungroup() %>%
+  print(n = Inf)
+
+
+
+#### Q3 permutation-test support ####
+
+genus_quadrat %>%
+  filter(bleaching_period == "Middle") %>%
+  group_by(location, genus, reef_type) %>%
+  summarise(
+    quadrats = n(),
+    unique_props = n_distinct(affected_prop),
+    min_prop = min(affected_prop),
+    max_prop = max(affected_prop),
+    .groups = "drop"
+  ) %>%
+  arrange(location, genus, reef_type) %>%
   print(n = Inf)
 
 #### EDA outputs ####
