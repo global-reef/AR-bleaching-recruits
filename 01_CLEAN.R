@@ -1,5 +1,5 @@
 ### 01. DATA CLEANING ####
-
+# following protocol of Zuur et al. (2010) https://doi.org/10.1111/j.2041-210X.2009.00001.x 
 #### Load data ####
 
 cpce_clean <- read_csv(file.path(data_clean_dir, "cpce_long.csv"), show_col_types = FALSE)
