@@ -40,7 +40,7 @@ save_figure <- function(plot, name, width, height) {
 
 figure_width <- 7.2
 half_page_height <- 4.5
-full_page_height <- 9.5
+full_page_height <- 8
 
 ### 02. F1 MATCHED-MIDDLE CONDITION COMPOSITION ####
 

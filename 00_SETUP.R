@@ -70,11 +70,20 @@ condition_palette2 <- c(
 )
 # option B 
 condition_palette <- c(
-  H = "#E8D8B5",
-  PBL = "#B9C7B5",
+  H = "#1F4E6B",
+  PBL = "#477F91",
   FBL = "#7FA9A8",
-  PRK = "#477F91",
-  FRK = "#1F4E6B"
+  PRK = "#B9C7B5",
+  FRK = "#E8D8B5"
 )
 
 #### Shared helper functions ####
+
+
+## citations 
+packages <- c("mclogit", "emmeans", "vegan", "ggalluvial", "tidyverse", "DHARMa", "vegan", "glmmTMB")
+
+for (pkg in packages) {
+  cat("\n\n###", pkg, "###\n")
+  print(citation(pkg))
+}

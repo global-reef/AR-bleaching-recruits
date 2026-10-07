@@ -36,6 +36,28 @@ write_csv(q1_interaction_table, file.path(stats_dir, "q1_interaction.csv"))
 write_csv(q1_emm_table, file.path(stats_dir, "q1_estimated_probabilities.csv"))
 write_csv(q1_posthoc_table, file.path(stats_dir, "q1_posthoc.csv"))
 
+# post hoc between koh tao and rayong 
+
+#### Q1 AR location contrasts ####
+
+q1_ar_location <- emmeans(
+  q1_model,
+  ~ location | condition * reef_type,
+  mode = "prob"
+) %>%
+  contrast(
+    method = "revpairwise",
+    by = c("condition", "reef_type")
+  ) %>%
+  summary(infer = TRUE, adjust = "none") %>%
+  as.data.frame() %>%
+  filter(reef_type == "Artificial") %>%
+  mutate(
+    p_adj = p.adjust(p.value, method = "BH")
+  )
+
+q1_ar_location
+write_csv(q1_ar_location, file.path(stats_dir, "q1_ar_location.csv"))
 
 ### 02. Q2 KOH TAO TEMPORAL RESULTS ####
 

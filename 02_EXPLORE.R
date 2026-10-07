@@ -362,3 +362,47 @@ write_csv(genus_state_summary, file.path(eda_dir, "genus_state_replication.csv")
 sampling_hierarchy
 print(candidate_genus_replication, n=Inf)
 print(candidate_genus_states, n=Inf)
+
+
+
+#### Total survey effort ####
+
+cpce_long %>%
+  mutate(
+    sampling_unit = case_when(
+      reef_type == "Artificial" ~ paste(location, site, date, "block", block, sep = "_"),
+      reef_type == "Natural" ~ paste(location, site, date, "transect", transect, sep = "_")
+    ),
+    quadrat_id = paste(sampling_unit, "quadrat", quadrat, sep = "_")
+  ) %>%
+  summarise(
+    cpce_points = n(),
+    quadrats = n_distinct(quadrat_id),
+    sampling_units = n_distinct(sampling_unit)
+  )
+
+#### Coral and analytical effort ####
+
+cpce_clean %>%
+  summarise(
+    coral_points = sum(is_coral),
+    coral_quadrats = n_distinct(quadrat_id[is_coral]),
+    eligible_points = sum(analysis_eligible),
+    eligible_quadrats = n_distinct(quadrat_id[analysis_eligible])
+  )
+
+cpce_long %>%
+  mutate(
+    sampling_unit = case_when(
+      reef_type == "Artificial" ~ paste(location, site, date, "block", block, sep = "_"),
+      reef_type == "Natural" ~ paste(location, site, date, "transect", transect, sep = "_")
+    ),
+    quadrat_id = paste(sampling_unit, "quadrat", quadrat, sep = "_")
+  ) %>%
+  group_by(reef_type) %>%
+  summarise(
+    cpce_points = n(),
+    quadrats = n_distinct(quadrat_id),
+    sampling_units = n_distinct(sampling_unit),
+    .groups = "drop"
+  )

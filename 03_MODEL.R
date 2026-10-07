@@ -74,7 +74,7 @@ q2_diagnostics
 q2_model$VarCov
 
 
-###  Q3 GENUS-SPECIFIC MATCHED-MIDDLE CONDITION ####
+###  Q3a GENUS-SPECIFIC MATCHED-PEAK CONDITION ####
 
 #### Quadrat-level condition composition ####
 
@@ -210,6 +210,235 @@ q3_results %>%
   print(n = Inf)
 
 
+
+### Q3b GENUS-SPECIFIC SITE DIFFERENCES ####
+
+#### Genus selection ####
+
+q3b_top_genera <- q3_condition_quadrat %>%
+  group_by(genus) %>%
+  summarise(coral_points = sum(coral_points), .groups = "drop") %>%
+  arrange(desc(coral_points)) %>%
+  slice_head(n = 10) %>%
+  pull(genus)
+
+q3_condition_quadrat %>%
+  filter(genus %in% q3b_top_genera) %>%
+  group_by(genus, reef_type, site) %>%
+  summarise(
+    quadrats = n(),
+    coral_points = sum(coral_points),
+    .groups = "drop"
+  ) %>%
+  arrange(match(genus, q3b_top_genera), reef_type, site) %>%
+  print(n = Inf)
+
+##### Genus support ####
+
+q3b_support <- q3_condition_quadrat %>%
+  filter(genus %in% q3b_top_genera) %>%
+  count(genus, reef_type, site, name = "quadrats") %>%
+  filter(quadrats >= 5)
+
+q3b_genera <- q3b_support %>%
+  count(genus, reef_type, name = "sites") %>%
+  filter(sites >= 2) %>%
+  select(genus, reef_type)
+
+q3b_support %>%
+  semi_join(q3b_genera, by = c("genus", "reef_type")) %>%
+  arrange(match(genus, q3b_top_genera), reef_type, site) %>%
+  print(n = Inf)
+
+#### PERMANOVA ####
+
+q3b_permanova_test <- function(genus_i, reef_type_i) {
+  
+  genus_data <- q3_condition_quadrat %>%
+    filter(genus == genus_i, reef_type == reef_type_i) %>%
+    semi_join(
+      q3b_support %>%
+        filter(genus == genus_i, reef_type == reef_type_i),
+      by = c("genus", "reef_type", "site")
+    ) %>%
+    droplevels()
+  
+  condition_matrix <- genus_data %>%
+    select(all_of(condition_cols))
+  
+  test <- vegan::adonis2(
+    condition_matrix ~ site,
+    data = genus_data,
+    permutations = n_perm,
+    method = "bray",
+    by = "margin"
+  )
+  
+  as.data.frame(test) %>%
+    rownames_to_column("term") %>%
+    filter(term == "site") %>%
+    transmute(
+      genus = genus_i,
+      reef_type = reef_type_i,
+      df = Df,
+      r2 = R2,
+      pseudo_f = F,
+      p = `Pr(>F)`
+    )
+}
+
+q3b_results <- map2_dfr(
+  q3b_genera$genus,
+  q3b_genera$reef_type,
+  q3b_permanova_test
+) %>%
+  group_by(reef_type) %>%
+  mutate(p_adj = p.adjust(p, method = "BH")) %>%
+  ungroup()
+
+
+#### Dispersion diagnostics ####
+
+q3b_dispersion_test <- function(genus_i, reef_type_i) {
+  
+  genus_data <- q3_condition_quadrat %>%
+    filter(genus == genus_i, reef_type == reef_type_i) %>%
+    droplevels()
+  
+  dispersion <- genus_data %>%
+    select(all_of(condition_cols)) %>%
+    vegan::vegdist(method = "bray") %>%
+    vegan::betadisper(genus_data$site, add = "lingoes")
+  
+  test <- vegan::permutest(dispersion, permutations = n_perm)
+  
+  tibble(
+    genus = genus_i,
+    reef_type = reef_type_i,
+    dispersion_f = test$tab[1, "F"],
+    dispersion_p = test$tab[1, "Pr(>F)"]
+  )
+}
+
+q3b_dispersion <- map2_dfr(
+  q3b_genera$genus,
+  q3b_genera$reef_type,
+  q3b_dispersion_test
+) %>%
+  group_by(reef_type) %>%
+  mutate(dispersion_p_adj = p.adjust(dispersion_p, method = "BH")) %>%
+  ungroup()
+
+q3b_results <- q3b_results %>%
+  left_join(q3b_dispersion, by = c("genus", "reef_type"))
+
+q3b_results
+
+
+#### Pairwise site follow-ups ####
+
+q3b_pairwise <- q3b_results %>%
+  filter(df > 1, p_adj < 0.05) %>%
+  select(genus, reef_type) %>%
+  pmap_dfr(function(genus, reef_type) {
+    
+    genus_data <- q3_condition_quadrat %>%
+      filter(genus == !!genus, reef_type == !!reef_type) %>%
+      semi_join(
+        q3b_support %>%
+          filter(genus == !!genus, reef_type == !!reef_type),
+        by = c("genus", "reef_type", "site")
+      ) %>%
+      droplevels()
+    
+    combn(unique(genus_data$site), 2, simplify = FALSE) %>%
+      map_dfr(function(site_pair) {
+        
+        pair_data <- genus_data %>%
+          filter(site %in% site_pair) %>%
+          droplevels()
+        
+        test <- vegan::adonis2(
+          pair_data %>% select(all_of(condition_cols)) ~ site,
+          data = pair_data,
+          permutations = n_perm,
+          method = "bray",
+          by = "margin"
+        )
+        
+        as.data.frame(test) %>%
+          rownames_to_column("term") %>%
+          filter(term == "site") %>%
+          transmute(
+            genus = genus,
+            reef_type = reef_type,
+            site_1 = site_pair[1],
+            site_2 = site_pair[2],
+            df = Df,
+            r2 = R2,
+            pseudo_f = F,
+            p = `Pr(>F)`
+          )
+      })
+  }) %>%
+  group_by(genus, reef_type) %>%
+  mutate(p_adj = p.adjust(p, method = "BH")) %>%
+  ungroup()
+
+q3b_pairwise %>%
+  arrange(genus, reef_type, p_adj) %>%
+  print(n = Inf)
+
+#### Pairwise dispersion diagnostics ####
+
+q3b_pairwise_dispersion <- q3b_pairwise %>%
+  select(genus, reef_type, site_1, site_2) %>%
+  pmap_dfr(function(genus, reef_type, site_1, site_2) {
+    
+    pair_data <- q3_condition_quadrat %>%
+      filter(
+        genus == !!genus,
+        reef_type == !!reef_type,
+        site %in% c(site_1, site_2)
+      ) %>%
+      semi_join(
+        q3b_support %>%
+          filter(
+            genus == !!genus,
+            reef_type == !!reef_type,
+            site %in% c(site_1, site_2)
+          ),
+        by = c("genus", "reef_type", "site")
+      ) %>%
+      droplevels()
+    
+    dispersion <- pair_data %>%
+      select(all_of(condition_cols)) %>%
+      vegan::vegdist(method = "bray") %>%
+      vegan::betadisper(pair_data$site, add = "lingoes")
+    
+    test <- vegan::permutest(dispersion, permutations = n_perm)
+    
+    tibble(
+      genus = genus,
+      reef_type = reef_type,
+      site_1 = site_1,
+      site_2 = site_2,
+      dispersion_f = test$tab[1, "F"],
+      dispersion_p = test$tab[1, "Pr(>F)"]
+    )
+  }) %>%
+  group_by(genus, reef_type) %>%
+  mutate(dispersion_p_adj = p.adjust(dispersion_p, method = "BH")) %>%
+  ungroup()
+
+q3b_pairwise %>%
+  left_join(
+    q3b_pairwise_dispersion,
+    by = c("genus", "reef_type", "site_1", "site_2")
+  ) %>%
+  arrange(genus, reef_type, p_adj) %>%
+  print(n = Inf)
 ### Q4 GENUS-SPECIFIC TEMPORAL CONDITION ####
 
 #### Quadrat-level condition composition ####
