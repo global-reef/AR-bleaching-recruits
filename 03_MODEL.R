@@ -303,6 +303,11 @@ q3b_dispersion_test <- function(genus_i, reef_type_i) {
   
   genus_data <- q3_condition_quadrat %>%
     filter(genus == genus_i, reef_type == reef_type_i) %>%
+    semi_join(
+      q3b_support %>%
+        filter(genus == genus_i, reef_type == reef_type_i),
+      by = c("genus", "reef_type", "site")
+    ) %>%
     droplevels()
   
   dispersion <- genus_data %>%
@@ -439,6 +444,17 @@ q3b_pairwise %>%
   ) %>%
   arrange(genus, reef_type, p_adj) %>%
   print(n = Inf)
+
+q3b_pairwise_results <- q3b_pairwise %>%
+  left_join(
+    q3b_pairwise_dispersion,
+    by = c("genus", "reef_type", "site_1", "site_2")
+  )
+
+write_csv(q3b_support, file.path(stats_dir, "q3b_genus_site_support.csv"))
+write_csv(q3b_results, file.path(stats_dir, "q3b_permanova_results.csv"))
+write_csv(q3b_pairwise_results, file.path(stats_dir, "q3b_pairwise_results.csv"))
+
 ### Q4 GENUS-SPECIFIC TEMPORAL CONDITION ####
 
 #### Quadrat-level condition composition ####

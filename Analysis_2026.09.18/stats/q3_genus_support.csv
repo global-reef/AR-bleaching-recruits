@@ -1,0 +1,63 @@
+location,genus,reef_type,quadrats,min_coral_points,median_coral_points,max_coral_points
+Koh Tao,Acropora,Natural,10,1,10.5,17
+Koh Tao,Acropora,Artificial,5,1,4,17
+Koh Tao,Coelastrea,Artificial,4,1,4,8
+Koh Tao,Diploastrea,Natural,22,1,13,40
+Koh Tao,Dipsastrea,Natural,2,2,3,4
+Koh Tao,Dipsastrea,Artificial,16,1,3.5,17
+Koh Tao,Favites,Natural,7,1,2,7
+Koh Tao,Favites,Artificial,3,1,2,7
+Koh Tao,Galaxea,Natural,1,3,3,3
+Koh Tao,Goniastrea,Natural,4,2,4,6
+Koh Tao,Goniastrea,Artificial,4,1,3.5,9
+Koh Tao,Goniopora,Natural,1,2,2,2
+Koh Tao,Leptastrea,Natural,1,3,3,3
+Koh Tao,Leptastrea,Artificial,22,3,11.5,37
+Koh Tao,Lithophyllon,Artificial,11,1,5,8
+Koh Tao,Lobophyllia,Natural,6,1,12,32
+Koh Tao,Lobophyllia,Artificial,2,4,5,6
+Koh Tao,Merulina,Natural,1,3,3,3
+Koh Tao,Montipora,Natural,3,2,3,7
+Koh Tao,Montipora,Artificial,6,1,7,32
+Koh Tao,Pavona,Natural,9,1,2,9
+Koh Tao,Pavona,Artificial,2,2,5,8
+Koh Tao,Platygyra,Natural,15,1,4,7
+Koh Tao,Platygyra,Artificial,41,1,4,18
+Koh Tao,Pocillopora,Natural,6,1,2,7
+Koh Tao,Pocillopora,Artificial,3,1,3,4
+Koh Tao,Porites,Natural,33,1,13,40
+Koh Tao,Porites,Artificial,10,1,8,40
+Koh Tao,Turbinaria,Natural,1,4,4,4
+Rayong,Acropora,Artificial,5,2,17,28
+Rayong,Astreopora,Natural,5,1,16,24
+Rayong,Astreopora,Artificial,1,3,3,3
+Rayong,Coelastrea,Artificial,107,1,9,31
+Rayong,Cyphastrea,Artificial,5,1,4,6
+Rayong,Dipsastrea,Natural,5,1,4,12
+Rayong,Dipsastrea,Artificial,67,1,4,27
+Rayong,Duncanopsammia,Artificial,1,18,18,18
+Rayong,Favites,Natural,7,2,4,14
+Rayong,Favites,Artificial,53,1,5,30
+Rayong,Goniastrea,Natural,8,3,9.5,29
+Rayong,Goniastrea,Artificial,7,1,3,7
+Rayong,Hydnophora,Natural,2,14,17,20
+Rayong,Hydnophora,Artificial,9,2,11,29
+Rayong,Leptastrea,Artificial,22,2,6.5,30
+Rayong,Lobophyllia,Natural,10,1,4,35
+Rayong,Lobophyllia,Artificial,7,1,7,28
+Rayong,Merulina,Natural,1,14,14,14
+Rayong,Oulastrea,Artificial,19,1,2,6
+Rayong,Pavona,Natural,21,1,6,26
+Rayong,Pavona,Artificial,2,2,2.5,3
+Rayong,Pectinia,Natural,1,4,4,4
+Rayong,Platygyra,Natural,9,1,2,11
+Rayong,Platygyra,Artificial,61,1,8,39
+Rayong,Plesiastrea,Artificial,1,9,9,9
+Rayong,Pocillopora,Natural,2,2,3.5,5
+Rayong,Pocillopora,Artificial,7,3,9,26
+Rayong,Podabacia,Natural,2,2,4.5,7
+Rayong,Porites,Natural,38,1,19.5,40
+Rayong,Porites,Artificial,103,1,7,34
+Rayong,Psammocora,Natural,1,1,1,1
+Rayong,Psammocora,Artificial,2,1,2.5,4
+Rayong,Turbinaria,Artificial,13,1,5,17

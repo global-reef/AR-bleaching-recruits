@@ -136,6 +136,48 @@ q3_summary <- q3_results %>%
 
 write_csv(q3_summary, file.path(stats_dir, "q3_results_summary.csv"))
 
+### 03.1 Q3b GENUS-SPECIFIC SITE RESULTS ####
+
+#### Results summary ####
+
+q3b_results <- read_csv(file.path(stats_dir, "q3b_permanova_results.csv"), show_col_types = FALSE)
+q3b_pairwise <- read_csv(file.path(stats_dir, "q3b_pairwise_results.csv"), show_col_types = FALSE)
+
+q3b_summary <- q3b_results %>%
+  mutate(
+    significant = p_adj < 0.05,
+    dispersion_issue = dispersion_p_adj < 0.05,
+    interpretation = case_when(
+      significant & !dispersion_issue ~ "Significant",
+      significant & dispersion_issue ~ "Significant; dispersion differs",
+      TRUE ~ "Not significant"
+    )
+  ) %>%
+  arrange(reef_type, p_adj)
+
+write_csv(q3b_summary, file.path(stats_dir, "q3b_results_summary.csv"))
+
+#### Site condition composition ####
+
+
+q3b_composition <- q3_condition_quadrat %>%
+  semi_join(
+    q3b_results %>% select(genus, reef_type),
+    by = c("genus", "reef_type")
+  ) %>%
+  semi_join(
+    q3b_support,
+    by = c("genus", "reef_type", "site")
+  ) %>%
+  group_by(genus, reef_type, site) %>%
+  summarise(
+    quadrats = n(),
+    across(all_of(condition_cols), mean),
+    .groups = "drop"
+  )
+
+write_csv(q3b_composition, file.path(stats_dir, "q3b_condition_composition.csv"))
+
 
 ### 04. Q4 GENUS-SPECIFIC TEMPORAL RESULTS ####
 
@@ -243,6 +285,16 @@ q2_posthoc_table %>% filter(p_adj < 0.05) %>% print(n = Inf)
 
 cat("\nQ3: significant genus-specific AR-NR differences\n")
 q3_summary %>% filter(significant) %>% print(n = Inf)
+
+cat("\nQ3b: genus-specific site differences\n");
+q3b_summary %>%
+  select(genus, reef_type, r2, pseudo_f, p_adj, dispersion_p_adj, interpretation) %>%
+  print(n = Inf)
+
+cat("\nQ3b: pairwise site differences\n");
+q3b_pairwise %>%
+  filter(p_adj < 0.05) %>%
+  print(n = Inf)
 
 cat("\nQ4: genus-specific temporal interactions\n")
 q4_summary %>% select(genus, r2, pseudo_f, p, p_adj, dispersion_p_adj) %>% print(n = Inf)

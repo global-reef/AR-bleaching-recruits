@@ -18,6 +18,10 @@ condition_recode <- c(
   "Partially recently killed" = "PRK",
   "Fully recently killed" = "FRK"
 )
+reef_labels <- c(
+  Natural = "Natural reef",
+  Artificial = "Artificial reef"
+)
 
 theme_clean <- theme_minimal(base_family = "sans") # fix for pdfs 
 
@@ -154,9 +158,103 @@ F3 <- ggplot(q3_plot_data, aes(reef_type, proportion, fill = health)) +
 
 F3
 
+### 05. F3b GENUS-SPECIFIC SITE CONDITION ####
 
+#### Shared labels ####
 
-### 05. F4 GENUS-SPECIFIC TEMPORAL TRAJECTORIES ####
+reef_labels <- c(
+  Natural = "Natural reef",
+  Artificial = "Artificial reef"
+)
+
+#### Plot data ####
+
+q3b_summary <- read_csv(file.path(stats_dir, "q3b_results_summary.csv"), show_col_types = FALSE)
+
+q3b_plot_data <- read_csv(file.path(stats_dir, "q3b_condition_composition.csv"), show_col_types = FALSE) %>%
+  left_join(
+    q3b_summary %>%
+      select(genus, reef_type, p_adj, significant, dispersion_issue),
+    by = c("genus", "reef_type")
+  ) %>%
+  pivot_longer(
+    cols = all_of(condition_order),
+    names_to = "condition",
+    values_to = "proportion"
+  ) %>%
+  mutate(
+    site = factor(site, levels = c("Mango", "Tanote", "Rayong")),
+    reef_type = factor(reef_type, levels = c("Natural", "Artificial")),
+    condition = factor(condition, levels = condition_order),
+    panel = case_when(
+      significant & dispersion_issue ~ paste0(
+        "<i>", genus, "</i><br>",
+        reef_labels[as.character(reef_type)], " †"
+      ),
+      significant ~ paste0(
+        "<i>", genus, "</i><br>",
+        reef_labels[as.character(reef_type)], " *"
+      ),
+      TRUE ~ paste0(
+        "<i>", genus, "</i><br>",
+        reef_labels[as.character(reef_type)]
+      )
+    )
+  )
+
+#### Panel order ####
+
+panel_order <- c(
+  "<i>Platygyra</i><br>Artificial reef *",
+  "<i>Porites</i><br>Artificial reef",
+  "<i>Dipsastrea</i><br>Artificial reef †",
+  "<i>Leptastrea</i><br>Artificial reef *",
+  "<i>Diploastrea</i><br>Natural reef",
+  "<i>Platygyra</i><br>Natural reef *",
+  "<i>Porites</i><br>Natural reef *",
+  "<i>Pavona</i><br>Natural reef *",
+  "<i>Lobophyllia</i><br>Natural reef *",
+  "<i>Favites</i><br>Natural reef"
+)
+
+q3b_plot_data <- q3b_plot_data %>%
+  mutate(panel = factor(panel, levels = panel_order))
+
+#### Horizontal stacked bars ####
+
+F3b <- ggplot(q3b_plot_data, aes(x = site, y = proportion, fill = condition)) +
+  geom_col(width = 0.72) +
+  facet_wrap(~ panel, ncol = 5) +
+  coord_flip() +
+  scale_y_continuous(
+    labels = scales::label_percent(),
+    expand = c(0, 0),
+    limits = c(0, 1)
+  ) +
+  scale_fill_manual(
+    values = condition_palette,
+    breaks = condition_order,
+    labels = condition_labels
+  ) +
+  labs(
+    x = NULL,
+    y = "Condition composition",
+    fill = "Condition"
+  ) +
+  theme_clean +
+  guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
+  theme(
+    legend.position = "bottom",
+    strip.text = ggtext::element_markdown(),
+    panel.spacing = unit(0.7, "lines"),
+    panel.grid = element_blank(),
+    axis.line = element_line(colour = "black", linewidth = 0.4)
+  )
+
+F3b
+save_figure(F3b, "F3b_genus_site_condition", figure_width, half_page_height)
+
+### 06. F4 GENUS-SPECIFIC TEMPORAL TRAJECTORIES ####
 
 #### Plot data ####
 
