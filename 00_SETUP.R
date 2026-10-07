@@ -47,13 +47,13 @@ purrr::walk(
 
 #### Plot theme ####
 
-theme_clean <- theme_minimal(base_family = "Arial") +
+theme_clean <- theme_minimal(base_family = "sans") +
   theme(
-    legend.position = "right",
+    legend.position = "bottom",
     panel.grid = element_blank(),
     plot.title = element_blank(),
-    panel.background = element_rect(fill = "white", colour = NA),
-    plot.background = element_rect(fill = "white", colour = NA)
+    panel.background = element_rect(fill = "transparent", colour = NA),
+    plot.background = element_rect(fill = "transparent", colour = NA)
   )
 
 

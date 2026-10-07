@@ -22,6 +22,16 @@ reef_labels <- c(
   Natural = "Natural reef",
   Artificial = "Artificial reef"
 )
+location_labels <- c(
+  "Koh Tao" = "Koh Tao",
+  "Rayong" = "Koh Mun Nai"
+)
+
+site_labels <- c(
+  "Mango" = "Mango",
+  "Tanote" = "Tanote",
+  "Rayong" = "Koh Mun Nai"
+)
 
 theme_clean <- theme_minimal(base_family = "sans") # fix for pdfs 
 
@@ -60,8 +70,8 @@ q1_plot_data <- read_csv(file.path(stats_dir, "q1_estimated_probabilities.csv"),
 #### Predicted composition ####
 
 F1 <- ggplot(q1_plot_data, aes(reef_type, probability, fill = condition)) +
-  geom_col(width = 0.72) +
-  facet_wrap(~ location, nrow = 1) +
+  geom_col(width = 0.8) +
+  facet_wrap(~ location, nrow = 1, labeller = labeller(location = location_labels)) +
   scale_x_discrete(labels = reef_labels) +
   scale_y_continuous(labels = scales::label_percent(), expand = c(0, 0)) +
   scale_fill_manual(values = condition_palette, breaks = condition_order, labels = condition_labels) +
@@ -69,6 +79,7 @@ F1 <- ggplot(q1_plot_data, aes(reef_type, probability, fill = condition)) +
   theme_clean +
   guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
   theme(legend.position = "bottom")
+
 F1
 
 
@@ -107,7 +118,8 @@ F2 <- ggplot(
   theme(
     legend.position = "bottom",
     axis.text.x = element_text(angle = 45, hjust = 1),
-    panel.spacing = unit(0.5, "lines")
+    panel.spacing = unit(0.5, "lines"),
+    panel.spacing.y = unit(1, "lines")
   )
 F2
 
@@ -142,7 +154,7 @@ q3_plot_data <- condition_data %>%
 #### Condition composition ####
 
 F3 <- ggplot(q3_plot_data, aes(reef_type, proportion, fill = health)) +
-  geom_col(width = 0.72) +
+  geom_col(width = 0.8) +
   facet_wrap(~ genus, nrow = 1) +
   scale_x_discrete(labels = reef_labels) +
   scale_y_continuous(labels = scales::label_percent(), expand = c(0, 0)) +
@@ -223,10 +235,12 @@ q3b_plot_data <- q3b_plot_data %>%
 #### Horizontal stacked bars ####
 
 F3b <- ggplot(q3b_plot_data, aes(x = site, y = proportion, fill = condition)) +
-  geom_col(width = 0.72) +
+  geom_col(width = 0.8) +
   facet_wrap(~ panel, ncol = 5) +
   coord_flip() +
+  scale_x_discrete(labels = site_labels) +
   scale_y_continuous(
+    breaks = c(0, 0.5, 1),
     labels = scales::label_percent(),
     expand = c(0, 0),
     limits = c(0, 1)
@@ -242,17 +256,16 @@ F3b <- ggplot(q3b_plot_data, aes(x = site, y = proportion, fill = condition)) +
     fill = "Condition"
   ) +
   theme_clean +
-  guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
+  guides(fill = guide_legend(nrow = 1, byrow = TRUE)) +
   theme(
-    legend.position = "bottom",
     strip.text = ggtext::element_markdown(),
-    panel.spacing = unit(0.7, "lines"),
+    panel.spacing.x = unit(1.8, "lines"),
+    panel.spacing.y = unit(0.8, "lines"),
     panel.grid = element_blank(),
     axis.line = element_line(colour = "black", linewidth = 0.4)
   )
 
 F3b
-save_figure(F3b, "F3b_genus_site_condition", figure_width, half_page_height)
 
 ### 06. F4 GENUS-SPECIFIC TEMPORAL TRAJECTORIES ####
 
@@ -309,15 +322,17 @@ F4 <- ggplot(
     panel.spacing.y = grid::unit(0.4, "lines")
   )
 
-save_figure(F1, "F1_matched_middle_condition", figure_width, half_page_height)
-save_figure(F2, "F2_koh_tao_temporal_condition", figure_width, half_page_height)
-save_figure(F3, "F3_rayong_genus_condition", figure_width, half_page_height)
-save_figure(F4, "F4_genus_temporal_condition", figure_width, full_page_height)
+save_figure(F1, "fig2_matched_middle_condition", figure_width, half_page_height)
+save_figure(F2, "fig3_koh_tao_temporal_condition", figure_width, half_page_height)
+save_figure(F3, "fig4_koh_mun_nai_genus_condition", figure_width, half_page_height)
+save_figure(F3b, "fig5_genus_site_condition", figure_width, half_page_height)
+save_figure(F4, "fig6_genus_temporal_condition", figure_width, full_page_height)
 
 print("plots done! publication figures saved to the dated plots folder")
 F1
 F2
 F3
+F3b
 F4
 
 
