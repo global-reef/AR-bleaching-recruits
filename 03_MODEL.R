@@ -610,3 +610,5 @@ summary(q2_model)
 
 q1_diagnostics
 q2_diagnostics
+
+beepr::beep()

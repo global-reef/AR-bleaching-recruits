@@ -232,6 +232,52 @@ cpce_long <- bind_rows(
 ) %>%
   arrange(location, site, reef_type, date, block, transect, quadrat, point)
 
+#### Apply corrected CPCE points ####
+
+cpce_updates <- read_excel(file.path(data_raw_dir, "UNKN_updates.xlsx")) %>%
+  transmute(
+    site = case_when(
+      str_detect(Site, "Tanote") ~ "Tanote",
+      str_detect(Site, "Mango") ~ "Mango",
+      str_detect(Site, "KMN|Koh Mun Nai|Rayong") ~ "Rayong"
+    ),
+    reef_type = if_else(str_detect(Site, "Natural Reef"), "Natural", "Artificial"),
+    date = as.Date(Survey_Date),
+    block = as.integer(str_match(Quadrat, "Block(\\d+)")[, 2]),
+    quadrat = as.integer(str_match(Quadrat, "Q(\\d+)")[, 2]),
+    point = as.integer(Data_Point_No),
+    substrate_new = str_to_upper(str_squish(Substrate)),
+    health_new = str_to_upper(str_squish(Health))
+  )
+
+# Match on site, date, quadrat and point, including block for AR.
+update_keys <- c("site", "reef_type", "date", "block", "quadrat", "point")
+
+# Ensure every correction matches exactly one original observation.
+stopifnot(
+  !anyDuplicated(cpce_updates[update_keys]),
+  nrow(cpce_updates) == nrow(inner_join(
+    cpce_updates, cpce_long,
+    by = update_keys,
+    na_matches = "na"
+  ))
+)
+
+# Overwrite both fields, including corrections with missing health.
+cpce_long <- cpce_long %>%
+  left_join(
+    cpce_updates %>% mutate(corrected = TRUE),
+    by = update_keys,
+    na_matches = "na"
+  ) %>%
+  mutate(
+    substrate = if_else(!is.na(corrected), substrate_new, substrate),
+    health = if_else(!is.na(corrected), health_new, health)
+  ) %>%
+  select(-substrate_new, -health_new, -corrected)
+
+cat("CPCE points corrected:", nrow(cpce_updates), "\n")
+
 # check 
 glimpse(cpce_long)
 

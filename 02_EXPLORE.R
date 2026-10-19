@@ -406,3 +406,4 @@ cpce_long %>%
     sampling_units = n_distinct(sampling_unit),
     .groups = "drop"
   )
+

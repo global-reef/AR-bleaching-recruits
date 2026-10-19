@@ -293,13 +293,14 @@ q3b_plot_data <- q3b_plot_data %>%
 #### Horizontal stacked bars ####
 
 F3b <- ggplot(q3b_plot_data, aes(x = site, y = proportion, fill = condition)) +
-  geom_col(width = 0.72) +
+  geom_col(width = 0.8) +
   facet_wrap(~ panel, ncol = 5) +
   coord_flip() +
   scale_y_continuous(
+    breaks = c(0, 0.5, 1),
     labels = scales::label_percent(),
     expand = c(0, 0),
-    limits = c(0, 1)
+    limits = c(0, 1.001)
   ) +
   scale_fill_manual(
     values = condition_palette,
@@ -315,12 +316,14 @@ F3b <- ggplot(q3b_plot_data, aes(x = site, y = proportion, fill = condition)) +
   guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
   theme(
     legend.position = "bottom",
+    legend.text = element_text(size = 8),
     strip.text = ggtext::element_markdown(),
-    panel.spacing = unit(0.7, "lines"),
+    panel.spacing.x = unit(1.8, "lines"),
+    panel.spacing.y = unit(0.8, "lines"),
     panel.grid = element_blank(),
     axis.line = element_line(colour = "black", linewidth = 0.4)
   )
 
 F3b
-save_figure(F3b, "F3b_genus_site_condition", figure_width, half_page_height)
+save_figure(F3b, "Fig5_genus_site_condition", figure_width, half_page_height)
 F3b

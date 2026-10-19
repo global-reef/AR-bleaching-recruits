@@ -243,7 +243,7 @@ F3b <- ggplot(q3b_plot_data, aes(x = site, y = proportion, fill = condition)) +
     breaks = c(0, 0.5, 1),
     labels = scales::label_percent(),
     expand = c(0, 0),
-    limits = c(0, 1)
+    limits = c(0, 1.001)
   ) +
   scale_fill_manual(
     values = condition_palette,
@@ -256,8 +256,10 @@ F3b <- ggplot(q3b_plot_data, aes(x = site, y = proportion, fill = condition)) +
     fill = "Condition"
   ) +
   theme_clean +
-  guides(fill = guide_legend(nrow = 1, byrow = TRUE)) +
+  guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
   theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 8),
     strip.text = ggtext::element_markdown(),
     panel.spacing.x = unit(1.8, "lines"),
     panel.spacing.y = unit(0.8, "lines"),

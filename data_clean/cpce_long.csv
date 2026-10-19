@@ -5489,7 +5489,7 @@ Koh Tao,Mango,Artificial,2024-06-13,4,8,7,LEPTA,FBL,NA
 Koh Tao,Mango,Artificial,2024-06-13,4,8,8,OLA,NA,NA
 Koh Tao,Mango,Artificial,2024-06-13,4,8,9,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-06-13,4,8,10,MISC,NA,NA
-Koh Tao,Mango,Artificial,2024-06-13,4,8,11,UNKN,FBL,NA
+Koh Tao,Mango,Artificial,2024-06-13,4,8,11,MISC,NA,NA
 Koh Tao,Mango,Artificial,2024-06-13,4,8,12,MISC,NA,NA
 Koh Tao,Mango,Artificial,2024-06-13,4,8,13,MISC,NA,NA
 Koh Tao,Mango,Artificial,2024-06-13,4,8,14,MISC,NA,NA
@@ -9641,7 +9641,7 @@ Koh Tao,Mango,Artificial,2024-08-03,5,1,39,OLA,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,5,1,40,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,5,2,1,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,5,2,2,OLA,NA,NA
-Koh Tao,Mango,Artificial,2024-08-03,5,2,3,UNKN,FBL,NA
+Koh Tao,Mango,Artificial,2024-08-03,5,2,3,LEPTA,FBL,NA
 Koh Tao,Mango,Artificial,2024-08-03,5,2,4,OLA,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,5,2,5,OLA,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,5,2,6,AB,NA,NA
@@ -11752,7 +11752,7 @@ Koh Tao,Mango,Artificial,2024-08-03,10,4,30,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,4,31,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,4,32,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,4,33,LITHO,PBL,NA
-Koh Tao,Mango,Artificial,2024-08-03,10,4,34,UNKN,H,NA
+Koh Tao,Mango,Artificial,2024-08-03,10,4,34,PLATY,H,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,4,35,LITHO,PBL,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,4,36,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,4,37,AB,NA,NA
@@ -11807,7 +11807,7 @@ Koh Tao,Mango,Artificial,2024-08-03,10,6,5,LEPTA,PBL,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,6,6,OLA,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,6,7,LEPTA,H,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,6,8,OLA,NA,NA
-Koh Tao,Mango,Artificial,2024-08-03,10,6,9,UNKN,H,NA
+Koh Tao,Mango,Artificial,2024-08-03,10,6,9,PLATY,H,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,6,10,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,6,11,AB,NA,NA
 Koh Tao,Mango,Artificial,2024-08-03,10,6,12,OLA,NA,NA
@@ -14401,11 +14401,11 @@ Koh Tao,Mango,Natural,2024-05-09,NA,10,39,POR,FBL,1
 Koh Tao,Mango,Natural,2024-05-09,NA,10,40,POR,FBL,1
 Koh Tao,Mango,Natural,2024-05-09,NA,11,1,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,2,MISC,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,11,3,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,11,3,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,4,POR,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,11,5,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,11,5,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,6,POR,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,11,7,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,11,7,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,8,POR,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,9,ACRO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,10,AB,NA,2
@@ -14421,7 +14421,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,11,19,ACRO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,20,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,21,ACRO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,22,ACRO,H,2
-Koh Tao,Mango,Natural,2024-05-09,NA,11,23,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,11,23,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,24,ACRO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,25,ACRO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,26,PAVO,PBL,2
@@ -14429,7 +14429,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,11,27,POR,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,28,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,29,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,30,AB,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,11,31,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,11,31,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,32,PAVO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,33,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,11,34,AB,NA,2
@@ -14556,7 +14556,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,14,34,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,14,35,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,14,36,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,14,37,POR,FBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,14,38,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,14,38,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,14,39,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,14,40,POR,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,15,1,AB,NA,2
@@ -14602,7 +14602,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,15,40,OLA,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,1,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,2,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,3,POR,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,16,4,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,16,4,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,5,OLA,OG,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,6,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,7,POR,PBL,2
@@ -14614,7 +14614,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,16,12,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,13,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,14,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,15,AB,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,16,16,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,16,16,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,17,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,18,POR,PRK,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,19,POR,PBL,2
@@ -14622,14 +14622,14 @@ Koh Tao,Mango,Natural,2024-05-09,NA,16,20,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,21,POR,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,22,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,23,MISC,OG,2
-Koh Tao,Mango,Natural,2024-05-09,NA,16,24,UNKN,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,16,25,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,16,24,MISC,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,16,25,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,26,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,27,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,28,POR,H,2
-Koh Tao,Mango,Natural,2024-05-09,NA,16,29,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,16,29,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,30,AB,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,16,31,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,16,31,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,32,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,33,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,16,34,AB,NA,2
@@ -14648,7 +14648,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,17,6,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,7,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,8,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,9,POR,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,17,10,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,17,10,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,11,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,12,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,13,MISC,NA,2
@@ -14663,8 +14663,8 @@ Koh Tao,Mango,Natural,2024-05-09,NA,17,21,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,22,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,23,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,24,MISC,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,17,25,UNKN,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,17,26,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,17,25,MISC,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,17,26,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,27,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,28,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,17,29,MISC,NA,2
@@ -14682,7 +14682,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,17,40,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,1,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,2,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,3,POR,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,18,4,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,18,4,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,5,POCIL,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,6,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,7,POR,PBL,2
@@ -14717,7 +14717,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,18,35,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,36,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,37,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,38,POR,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,18,39,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,18,39,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,18,40,POR,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,1,PAVO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,2,PAVO,PBL,2
@@ -14728,7 +14728,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,19,6,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,7,PAVO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,8,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,9,PAVO,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,19,10,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,19,10,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,11,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,12,PAVO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,13,PAVO,PBL,2
@@ -14737,7 +14737,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,19,15,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,16,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,17,PAVO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,18,PAVO,PBL,2
-Koh Tao,Mango,Natural,2024-05-09,NA,19,19,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,19,19,PAVO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,20,PORI,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,21,DIPLO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,22,PAVO,PBL,2
@@ -14761,13 +14761,13 @@ Koh Tao,Mango,Natural,2024-05-09,NA,19,39,POR,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,19,40,DIPLO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,1,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,2,AB,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,20,3,UNKN,FBL,2
+Koh Tao,Mango,Natural,2024-05-09,NA,20,3,PAVO,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,4,LOBO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,5,LOBO,PBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,6,POR,PRK,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,7,OLA,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,20,8,UNKN,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,20,9,UNKN,FBL,2
+Koh Tao,Mango,Natural,2024-05-09,NA,20,8,MISC,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,20,9,PAVO,FBL,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,10,OLA,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,11,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,12,MISC,NA,2
@@ -14781,8 +14781,8 @@ Koh Tao,Mango,Natural,2024-05-09,NA,20,19,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,20,AB,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,21,MISC,OG,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,22,AB,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,20,23,UNKN,NA,2
-Koh Tao,Mango,Natural,2024-05-09,NA,20,24,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,20,23,MISC,NA,2
+Koh Tao,Mango,Natural,2024-05-09,NA,20,24,MISC,NA,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,25,LOBO,H,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,26,MISC,OG,2
 Koh Tao,Mango,Natural,2024-05-09,NA,20,27,OLA,NA,2
@@ -14883,7 +14883,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,23,1,PLATY,PBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,23,2,FUNG,PBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,23,3,PLATY,PBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,23,4,PLATY,PBL,3
-Koh Tao,Mango,Natural,2024-05-09,NA,23,5,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-05-09,NA,23,5,MISC,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,23,6,PLATY,PBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,23,7,OLA,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,23,8,OLA,NA,3
@@ -14933,7 +14933,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,24,11,POR,FBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,12,OLA,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,13,OLA,OG,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,14,MISC,NA,3
-Koh Tao,Mango,Natural,2024-05-09,NA,24,15,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-05-09,NA,24,15,MISC,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,16,OLA,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,17,AB,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,18,POCIL,PBL,3
@@ -14946,7 +14946,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,24,24,AB,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,25,AB,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,26,POR,PRK,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,27,PAVO,H,3
-Koh Tao,Mango,Natural,2024-05-09,NA,24,28,UNKN,H,3
+Koh Tao,Mango,Natural,2024-05-09,NA,24,28,PAVO,H,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,29,AB,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,30,POR,PBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,24,31,POR,FBL,3
@@ -14990,7 +14990,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,25,28,POR,FBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,25,29,OLA,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,25,30,POR,FBL,3
 Koh Tao,Mango,Natural,2024-05-09,NA,25,31,POR,PBL,3
-Koh Tao,Mango,Natural,2024-05-09,NA,25,32,UNKWN,NA,3
+Koh Tao,Mango,Natural,2024-05-09,NA,25,32,MISC,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,25,33,PAVO,H,3
 Koh Tao,Mango,Natural,2024-05-09,NA,25,34,OLA,NA,3
 Koh Tao,Mango,Natural,2024-05-09,NA,25,35,POR,PRK,3
@@ -15281,7 +15281,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,32,39,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,32,40,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,1,OLA,OG,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,2,POR,PRK,4
-Koh Tao,Mango,Natural,2024-05-09,NA,33,3,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-05-09,NA,33,3,MISC,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,4,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,5,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,6,POR,FRK,4
@@ -15316,7 +15316,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,33,34,POR,FRK,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,35,POR,FRK,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,36,POR,FRK,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,37,OLA,NA,4
-Koh Tao,Mango,Natural,2024-05-09,NA,33,38,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-05-09,NA,33,38,MISC,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,39,OLA,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,33,40,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,34,1,POR,PBL,4
@@ -15376,11 +15376,11 @@ Koh Tao,Mango,Natural,2024-05-09,NA,35,14,POR,FBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,15,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,16,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,17,POR,PBL,4
-Koh Tao,Mango,Natural,2024-05-09,NA,35,18,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-05-09,NA,35,18,MISC,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,19,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,20,POR,FBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,21,POR,FBL,4
-Koh Tao,Mango,Natural,2024-05-09,NA,35,22,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-05-09,NA,35,22,MISC,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,23,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,24,AB,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,25,POR,PBL,4
@@ -15396,7 +15396,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,35,34,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,35,POR,FBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,36,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,37,POR,FBL,4
-Koh Tao,Mango,Natural,2024-05-09,NA,35,38,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-05-09,NA,35,38,MISC,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,39,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,35,40,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,36,1,POR,PBL,4
@@ -15569,7 +15569,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,40,7,AB,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,8,MISC,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,9,POR,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,10,MISC,NA,4
-Koh Tao,Mango,Natural,2024-05-09,NA,40,11,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-05-09,NA,40,11,MISC,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,12,AB,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,13,POR,PRK,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,14,POR,H,4
@@ -15597,7 +15597,7 @@ Koh Tao,Mango,Natural,2024-05-09,NA,40,35,POR,FBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,36,AB,NA,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,37,PAVO,PBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,38,OLA,OG,4
-Koh Tao,Mango,Natural,2024-05-09,NA,40,39,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-05-09,NA,40,39,POR,FBL,4
 Koh Tao,Mango,Natural,2024-05-09,NA,40,40,AB,NA,4
 Koh Tao,Mango,Natural,2024-06-11,NA,1,1,AB,NA,1
 Koh Tao,Mango,Natural,2024-06-11,NA,1,2,AB,NA,1
@@ -15879,7 +15879,7 @@ Koh Tao,Mango,Natural,2024-06-11,NA,7,37,ACRO,FBL,1
 Koh Tao,Mango,Natural,2024-06-11,NA,7,38,AB,NA,1
 Koh Tao,Mango,Natural,2024-06-11,NA,7,39,POCIL,FBL,1
 Koh Tao,Mango,Natural,2024-06-11,NA,7,40,ACRO,FBL,1
-Koh Tao,Mango,Natural,2024-06-11,NA,8,1,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-06-11,NA,8,1,AB,NA,1
 Koh Tao,Mango,Natural,2024-06-11,NA,8,2,MONTI,FRK,1
 Koh Tao,Mango,Natural,2024-06-11,NA,8,3,PAVO,PBL,1
 Koh Tao,Mango,Natural,2024-06-11,NA,8,4,AB,NA,1
@@ -15961,7 +15961,7 @@ Koh Tao,Mango,Natural,2024-06-11,NA,9,39,POR,FBL,1
 Koh Tao,Mango,Natural,2024-06-11,NA,9,40,POR,FRK,1
 Koh Tao,Mango,Natural,2024-06-11,NA,10,1,POR,PRK,1
 Koh Tao,Mango,Natural,2024-06-11,NA,10,2,POR,FBL,1
-Koh Tao,Mango,Natural,2024-06-11,NA,10,3,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-06-11,NA,10,3,OLA,NA,1
 Koh Tao,Mango,Natural,2024-06-11,NA,10,4,MISC,NA,1
 Koh Tao,Mango,Natural,2024-06-11,NA,10,5,POR,FBL,1
 Koh Tao,Mango,Natural,2024-06-11,NA,10,6,MISC,OG,1
@@ -16637,7 +16637,7 @@ Koh Tao,Mango,Natural,2024-06-11,NA,26,35,AB,NA,3
 Koh Tao,Mango,Natural,2024-06-11,NA,26,36,OLA,OG,3
 Koh Tao,Mango,Natural,2024-06-11,NA,26,37,POR,FRK,3
 Koh Tao,Mango,Natural,2024-06-11,NA,26,38,POR,FRK,3
-Koh Tao,Mango,Natural,2024-06-11,NA,26,39,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-06-11,NA,26,39,MISC,NA,3
 Koh Tao,Mango,Natural,2024-06-11,NA,26,40,POR,FBL,3
 Koh Tao,Mango,Natural,2024-06-11,NA,27,1,POR,PBL,3
 Koh Tao,Mango,Natural,2024-06-11,NA,27,2,MISC,NA,3
@@ -16929,7 +16929,7 @@ Koh Tao,Mango,Natural,2024-06-11,NA,34,7,POR,PBL,4
 Koh Tao,Mango,Natural,2024-06-11,NA,34,8,POR,PBL,4
 Koh Tao,Mango,Natural,2024-06-11,NA,34,9,POR,PBL,4
 Koh Tao,Mango,Natural,2024-06-11,NA,34,10,POR,PBL,4
-Koh Tao,Mango,Natural,2024-06-11,NA,34,11,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-06-11,NA,34,11,MISC,NA,4
 Koh Tao,Mango,Natural,2024-06-11,NA,34,12,POR,PBL,4
 Koh Tao,Mango,Natural,2024-06-11,NA,34,13,POR,PBL,4
 Koh Tao,Mango,Natural,2024-06-11,NA,34,14,POR,PBL,4
@@ -17215,7 +17215,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,1,13,PAVO,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,14,GONIA,PBL,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,15,GONIA,PBL,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,16,AB,NA,1
-Koh Tao,Mango,Natural,2024-08-03,NA,1,17,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,1,17,FAVI,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,18,ECHINOPO,PBL,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,19,DIPLO,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,20,PAVO,H,1
@@ -17236,7 +17236,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,1,34,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,35,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,36,PAVO,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,37,LOBO,H,1
-Koh Tao,Mango,Natural,2024-08-03,NA,1,38,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,1,38,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,39,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,1,40,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,2,1,DIPLO,H,1
@@ -17250,7 +17250,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,2,8,DIPLO,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,2,9,DIPLO,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,2,10,DIPLO,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,2,11,DIPLO,H,1
-Koh Tao,Mango,Natural,2024-08-03,NA,2,12,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,2,12,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,2,13,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,2,14,DIPLO,H,1
 Koh Tao,Mango,Natural,2024-08-03,NA,2,15,DIPLO,H,1
@@ -17400,16 +17400,16 @@ Koh Tao,Mango,Natural,2024-08-03,NA,5,38,ACRO,PBL,1
 Koh Tao,Mango,Natural,2024-08-03,NA,5,39,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,5,40,ACRO,PBL,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,1,DIPLO,H,1
-Koh Tao,Mango,Natural,2024-08-03,NA,6,2,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,6,2,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,3,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,4,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,5,POR,FRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,6,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,7,POR,FRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,8,POR,FRK,1
-Koh Tao,Mango,Natural,2024-08-03,NA,6,9,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,6,9,MISC,MISC,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,10,POR,FRK,1
-Koh Tao,Mango,Natural,2024-08-03,NA,6,11,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,6,11,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,12,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,13,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,14,DIPLO,H,1
@@ -17418,7 +17418,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,6,16,POCIL,PBL,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,17,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,18,POCIL,PBL,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,19,POR,FRK,1
-Koh Tao,Mango,Natural,2024-08-03,NA,6,20,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,6,20,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,21,ACRO,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,22,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,23,POR,PRK,1
@@ -17430,9 +17430,9 @@ Koh Tao,Mango,Natural,2024-08-03,NA,6,28,ACRO,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,29,ACRO,FRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,30,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,31,POCIL,PBL,1
-Koh Tao,Mango,Natural,2024-08-03,NA,6,32,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,6,32,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,33,POR,PBL,1
-Koh Tao,Mango,Natural,2024-08-03,NA,6,34,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-03,NA,6,34,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,35,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,36,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-03,NA,6,37,POR,PRK,1
@@ -17799,7 +17799,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,15,37,GARD,PBL,2
 Koh Tao,Mango,Natural,2024-08-03,NA,15,38,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,15,39,PAVO,H,2
 Koh Tao,Mango,Natural,2024-08-03,NA,15,40,AB,NA,2
-Koh Tao,Mango,Natural,2024-08-03,NA,16,1,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-03,NA,16,1,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,16,2,PAVO,H,2
 Koh Tao,Mango,Natural,2024-08-03,NA,16,3,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,16,4,AB,NA,2
@@ -17901,7 +17901,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,18,19,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,20,POR,FRK,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,21,PAVO,PBL,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,22,AB,NA,2
-Koh Tao,Mango,Natural,2024-08-03,NA,18,23,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-03,NA,18,23,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,24,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,25,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,26,OLA,NA,2
@@ -17914,7 +17914,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,18,32,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,33,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,34,PAVO,H,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,35,AB,NA,2
-Koh Tao,Mango,Natural,2024-08-03,NA,18,36,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-03,NA,18,36,POR,H,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,37,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,38,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-03,NA,18,39,AB,NA,2
@@ -18111,7 +18111,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,23,29,POR,FRK,3
 Koh Tao,Mango,Natural,2024-08-03,NA,23,30,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-03,NA,23,31,POR,FRK,3
 Koh Tao,Mango,Natural,2024-08-03,NA,23,32,POR,PRK,3
-Koh Tao,Mango,Natural,2024-08-03,NA,23,33,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-03,NA,23,33,PAVO,PBL,3
 Koh Tao,Mango,Natural,2024-08-03,NA,23,34,POR,PRK,3
 Koh Tao,Mango,Natural,2024-08-03,NA,23,35,OLA,OG,3
 Koh Tao,Mango,Natural,2024-08-03,NA,23,36,POR,PRK,3
@@ -18320,7 +18320,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,28,38,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-03,NA,28,39,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-03,NA,28,40,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,1,GARD,H,3
-Koh Tao,Mango,Natural,2024-08-03,NA,29,2,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-03,NA,29,2,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,3,POR,PRK,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,4,POR,PBL,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,5,POR,FRK,3
@@ -18356,7 +18356,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,29,34,POR,PBL,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,35,POR,PRK,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,36,POR,PBL,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,37,POR,PBL,3
-Koh Tao,Mango,Natural,2024-08-03,NA,29,38,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-03,NA,29,38,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,39,POR,PBL,3
 Koh Tao,Mango,Natural,2024-08-03,NA,29,40,POR,PBL,3
 Koh Tao,Mango,Natural,2024-08-03,NA,30,1,AB,NA,3
@@ -18529,7 +18529,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,34,7,POR,PRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,8,POR,PBL,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,9,POR,FRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,10,POR,FRK,4
-Koh Tao,Mango,Natural,2024-08-03,NA,34,11,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-03,NA,34,11,OLA,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,12,POR,FRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,13,POR,FBL,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,14,POR,PRK,4
@@ -18537,7 +18537,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,34,15,PAVO,PBL,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,16,POR,FRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,17,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,18,PAVO,PBL,4
-Koh Tao,Mango,Natural,2024-08-03,NA,34,19,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-03,NA,34,19,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,20,POR,PRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,21,POR,PRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,34,22,POR,PBL,4
@@ -18626,7 +18626,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,36,24,OLA,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,36,25,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,36,26,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,36,27,AB,NA,4
-Koh Tao,Mango,Natural,2024-08-03,NA,36,28,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-03,NA,36,28,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,36,29,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,36,30,OLA,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,36,31,OLA,NA,4
@@ -18693,7 +18693,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,38,11,POR,PRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,38,12,POR,PBL,4
 Koh Tao,Mango,Natural,2024-08-03,NA,38,13,POR,H,4
 Koh Tao,Mango,Natural,2024-08-03,NA,38,14,POR,FRK,4
-Koh Tao,Mango,Natural,2024-08-03,NA,38,15,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-03,NA,38,15,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,38,16,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,38,17,POR,PRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,38,18,POR,PBL,4
@@ -18737,7 +18737,7 @@ Koh Tao,Mango,Natural,2024-08-03,NA,39,15,POR,PBL,4
 Koh Tao,Mango,Natural,2024-08-03,NA,39,16,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,39,17,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,39,18,AB,NA,4
-Koh Tao,Mango,Natural,2024-08-03,NA,39,19,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-03,NA,39,19,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-03,NA,39,20,POR,H,4
 Koh Tao,Mango,Natural,2024-08-03,NA,39,21,POR,FRK,4
 Koh Tao,Mango,Natural,2024-08-03,NA,39,22,OLA,NA,4
@@ -18809,7 +18809,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,2,7,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,2,8,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,2,9,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,2,10,MISC,NA,1
-Koh Tao,Mango,Natural,2024-08-27,NA,2,11,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,2,11,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,2,12,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,2,13,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,2,14,POR,H,1
@@ -18898,7 +18898,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,4,16,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,17,DIPLO,H,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,18,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,19,AB,NA,1
-Koh Tao,Mango,Natural,2024-08-27,NA,4,20,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,4,20,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,21,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,22,DIPLO,H,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,23,DIPLO,H,1
@@ -18913,7 +18913,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,4,31,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,32,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,33,LOBO,PBL,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,34,MISC,NA,1
-Koh Tao,Mango,Natural,2024-08-27,NA,4,35,UNKN,H,1
+Koh Tao,Mango,Natural,2024-08-27,NA,4,35,LOBO,H,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,36,LOBO,H,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,37,NA,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,4,38,LOBO,PBL,1
@@ -18946,12 +18946,12 @@ Koh Tao,Mango,Natural,2024-08-27,NA,5,24,ACRO,PBL,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,25,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,26,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,27,AB,NA,1
-Koh Tao,Mango,Natural,2024-08-27,NA,5,28,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,5,28,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,29,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,30,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,31,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,32,POR,H,1
-Koh Tao,Mango,Natural,2024-08-27,NA,5,33,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,5,33,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,34,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,35,ACRO,FRK,1
 Koh Tao,Mango,Natural,2024-08-27,NA,5,36,AB,NA,1
@@ -18977,7 +18977,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,6,15,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-27,NA,6,16,POR,H,1
 Koh Tao,Mango,Natural,2024-08-27,NA,6,17,POR,PBL,1
 Koh Tao,Mango,Natural,2024-08-27,NA,6,18,POR,PBL,1
-Koh Tao,Mango,Natural,2024-08-27,NA,6,19,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,6,19,PAVO,H,1
 Koh Tao,Mango,Natural,2024-08-27,NA,6,20,POR,PBL,1
 Koh Tao,Mango,Natural,2024-08-27,NA,6,21,POR,H,1
 Koh Tao,Mango,Natural,2024-08-27,NA,6,22,POR,PBL,1
@@ -19005,7 +19005,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,7,3,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,4,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,5,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,6,OLA,NA,1
-Koh Tao,Mango,Natural,2024-08-27,NA,7,7,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,7,7,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,8,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,9,POR,PRK,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,10,MISC,OG,1
@@ -19021,7 +19021,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,7,19,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,20,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,21,POR,FRK,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,22,MISC,NA,1
-Koh Tao,Mango,Natural,2024-08-27,NA,7,23,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,7,23,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,24,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,25,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,26,OLA,NA,1
@@ -19032,7 +19032,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,7,30,OLA,OG,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,31,POR,FRK,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,32,OLA,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,33,POR,FBL,1
-Koh Tao,Mango,Natural,2024-08-27,NA,7,34,UNKN,NA,1
+Koh Tao,Mango,Natural,2024-08-27,NA,7,34,MISC,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,35,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,36,AB,NA,1
 Koh Tao,Mango,Natural,2024-08-27,NA,7,37,AB,NA,1
@@ -19212,7 +19212,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,12,10,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,12,11,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,12,12,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,12,13,OLA,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,12,14,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,12,14,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,12,15,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,12,16,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,12,17,OLA,NA,2
@@ -19241,7 +19241,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,12,39,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,12,40,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,1,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,2,POR,PBL,2
-Koh Tao,Mango,Natural,2024-08-27,NA,13,3,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,13,3,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,4,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,5,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,6,POR,H,2
@@ -19250,14 +19250,14 @@ Koh Tao,Mango,Natural,2024-08-27,NA,13,8,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,9,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,10,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,11,AB,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,13,12,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,13,12,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,13,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,14,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,15,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,16,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,17,PAVO,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,18,POR,FRK,2
-Koh Tao,Mango,Natural,2024-08-27,NA,13,19,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,13,19,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,20,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,21,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,22,POR,H,2
@@ -19265,7 +19265,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,13,23,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,24,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,25,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,26,POR,PBL,2
-Koh Tao,Mango,Natural,2024-08-27,NA,13,27,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,13,27,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,28,POR,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,29,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,30,POR,PBL,2
@@ -19275,7 +19275,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,13,33,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,34,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,35,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,36,MISC,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,13,37,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,13,37,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,38,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,39,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,13,40,POR,PBL,2
@@ -19285,7 +19285,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,14,3,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,4,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,5,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,6,MISC,OG,2
-Koh Tao,Mango,Natural,2024-08-27,NA,14,7,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,14,7,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,8,POR,PRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,9,POR,FBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,10,AB,NA,2
@@ -19311,7 +19311,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,14,29,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,30,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,31,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,32,FUNG,PBL,2
-Koh Tao,Mango,Natural,2024-08-27,NA,14,33,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,14,33,POR,FBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,34,POR,PRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,35,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,14,36,POR,PBL,2
@@ -19350,11 +19350,11 @@ Koh Tao,Mango,Natural,2024-08-27,NA,15,28,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,29,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,30,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,31,OLA,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,15,32,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,15,32,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,33,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,34,POR,PRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,35,POR,PBL,2
-Koh Tao,Mango,Natural,2024-08-27,NA,15,36,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,15,36,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,37,POR,FBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,38,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,15,39,MONTI,H,2
@@ -19367,30 +19367,30 @@ Koh Tao,Mango,Natural,2024-08-27,NA,16,5,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,6,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,7,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,8,POR,PBL,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,9,UNKN,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,10,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,9,MISC,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,10,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,11,POR,FRK,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,12,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,12,PAVO,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,13,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,14,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,15,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,16,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,17,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,18,OLA,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,19,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,19,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,20,POR,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,21,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,22,POR,PBL,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,23,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,23,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,24,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,25,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,26,OLA,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,27,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,27,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,28,OLA,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,29,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,29,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,30,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,31,OLA,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,16,32,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,16,32,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,33,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,34,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,16,35,POR,FRK,2
@@ -19472,7 +19472,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,18,30,ACRO,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,18,31,PAVO,PRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,18,32,POR,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,18,33,POR,H,2
-Koh Tao,Mango,Natural,2024-08-27,NA,18,34,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,18,34,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,18,35,PAVO,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,18,36,ACRO,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,18,37,ACRO,FRK,2
@@ -19484,12 +19484,12 @@ Koh Tao,Mango,Natural,2024-08-27,NA,19,2,POR,PRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,3,MERU,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,4,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,5,POR,PRK,2
-Koh Tao,Mango,Natural,2024-08-27,NA,19,6,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,19,6,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,7,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,8,POR,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,9,POR,PRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,10,POR,PRK,2
-Koh Tao,Mango,Natural,2024-08-27,NA,19,11,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,19,11,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,12,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,13,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,14,POR,Health,2
@@ -19497,7 +19497,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,19,15,POR,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,16,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,17,POR,FBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,18,OLA,NA,2
-Koh Tao,Mango,Natural,2024-08-27,NA,19,19,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,19,19,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,20,AB,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,21,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,22,POR,H,2
@@ -19511,11 +19511,11 @@ Koh Tao,Mango,Natural,2024-08-27,NA,19,29,PAVO,H,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,30,POR,PRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,31,POR,FBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,32,PLATY,H,2
-Koh Tao,Mango,Natural,2024-08-27,NA,19,33,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,19,33,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,34,OLA,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,35,POR,FBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,36,FUNG,FBL,2
-Koh Tao,Mango,Natural,2024-08-27,NA,19,37,UNKN,NA,2
+Koh Tao,Mango,Natural,2024-08-27,NA,19,37,MISC,NA,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,38,POR,FRK,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,39,POR,PBL,2
 Koh Tao,Mango,Natural,2024-08-27,NA,19,40,AB,NA,2
@@ -19603,7 +19603,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,22,1,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,2,POR,FRK,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,3,POCIL,H,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,4,ACRO,H,3
-Koh Tao,Mango,Natural,2024-08-27,NA,22,5,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,22,5,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,6,POR,PBL,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,7,POR,H,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,8,ACRO,H,3
@@ -19618,7 +19618,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,22,16,POR,FRK,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,17,POR,H,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,18,ACRO,PRK,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,19,ACRO,H,3
-Koh Tao,Mango,Natural,2024-08-27,NA,22,20,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,22,20,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,21,POR,PRK,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,22,POCIL,PBL,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,23,MERU,FBL,3
@@ -19628,7 +19628,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,22,26,PAVO,H,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,27,POR,FRK,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,28,POR,H,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,29,FUNG,PBL,3
-Koh Tao,Mango,Natural,2024-08-27,NA,22,30,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,22,30,POR,FBL,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,31,ACRO,H,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,32,ACRO,H,3
 Koh Tao,Mango,Natural,2024-08-27,NA,22,33,AB,NA,3
@@ -19658,7 +19658,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,23,16,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,23,17,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,23,18,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,23,19,OLA,NA,3
-Koh Tao,Mango,Natural,2024-08-27,NA,23,20,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,23,20,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,23,21,ACRO,FRK,3
 Koh Tao,Mango,Natural,2024-08-27,NA,23,22,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,23,23,ACRO,PRK,3
@@ -19733,10 +19733,10 @@ Koh Tao,Mango,Natural,2024-08-27,NA,25,11,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,12,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,13,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,14,ACRO,PRK,3
-Koh Tao,Mango,Natural,2024-08-27,NA,25,15,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,25,15,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,16,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,17,MISC,NA,3
-Koh Tao,Mango,Natural,2024-08-27,NA,25,18,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,25,18,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,19,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,20,ACRO,PRK,3
 Koh Tao,Mango,Natural,2024-08-27,NA,25,21,OLA,OG,3
@@ -19818,7 +19818,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,27,16,PAVO,PBL,3
 Koh Tao,Mango,Natural,2024-08-27,NA,27,17,POR,PBL,3
 Koh Tao,Mango,Natural,2024-08-27,NA,27,18,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,27,19,OLA,NA,3
-Koh Tao,Mango,Natural,2024-08-27,NA,27,20,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,27,20,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,27,21,PAVO,PBL,3
 Koh Tao,Mango,Natural,2024-08-27,NA,27,22,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,27,23,PAVO,PBL,3
@@ -19900,7 +19900,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,29,18,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,29,19,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,29,20,OLA,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,29,21,AB,NA,3
-Koh Tao,Mango,Natural,2024-08-27,NA,29,22,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,29,22,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,29,23,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,29,24,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,29,25,AB,NA,3
@@ -19927,7 +19927,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,30,5,POCIL,PBL,3
 Koh Tao,Mango,Natural,2024-08-27,NA,30,6,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,30,7,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,30,8,OLA,NA,3
-Koh Tao,Mango,Natural,2024-08-27,NA,30,9,UNKN,NA,3
+Koh Tao,Mango,Natural,2024-08-27,NA,30,9,MISC,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,30,10,OLA,OG,3
 Koh Tao,Mango,Natural,2024-08-27,NA,30,11,AB,NA,3
 Koh Tao,Mango,Natural,2024-08-27,NA,30,12,POCIL,PBL,3
@@ -20148,15 +20148,15 @@ Koh Tao,Mango,Natural,2024-08-27,NA,35,26,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,27,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,28,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,29,AB,NA,4
-Koh Tao,Mango,Natural,2024-08-27,NA,35,30,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-27,NA,35,30,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,31,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,32,AB,NA,4
-Koh Tao,Mango,Natural,2024-08-27,NA,35,33,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-27,NA,35,33,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,34,AB,NA,4
-Koh Tao,Mango,Natural,2024-08-27,NA,35,35,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-27,NA,35,35,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,36,AB,NA,4
-Koh Tao,Mango,Natural,2024-08-27,NA,35,37,UNKN,NA,4
-Koh Tao,Mango,Natural,2024-08-27,NA,35,38,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-27,NA,35,37,MISC,NA,4
+Koh Tao,Mango,Natural,2024-08-27,NA,35,38,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,39,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,35,40,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,36,1,POR,PBL,4
@@ -20279,7 +20279,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,38,37,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,38,38,ACRO,PBL,4
 Koh Tao,Mango,Natural,2024-08-27,NA,38,39,ACRO,PBL,4
 Koh Tao,Mango,Natural,2024-08-27,NA,38,40,OLA,NA,4
-Koh Tao,Mango,Natural,2024-08-27,NA,39,1,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-27,NA,39,1,MISC,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,2,AB,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,3,OLA,OG,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,4,MISC,NA,4
@@ -20316,7 +20316,7 @@ Koh Tao,Mango,Natural,2024-08-27,NA,39,34,ACRO,H,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,35,OLA,NA,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,36,POR,PRK,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,37,PLEUR,FBL,4
-Koh Tao,Mango,Natural,2024-08-27,NA,39,38,UNKN,NA,4
+Koh Tao,Mango,Natural,2024-08-27,NA,39,38,ACRO,H,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,39,ACRO,H,4
 Koh Tao,Mango,Natural,2024-08-27,NA,39,40,POR,H,4
 Koh Tao,Mango,Natural,2024-08-27,NA,40,1,POR,H,4
@@ -24536,7 +24536,7 @@ Koh Tao,Tanote,Artificial,2024-05-30,1,5,14,MISC,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,15,PLATY,FBL,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,16,AB,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,17,PLATY,FBL,NA
-Koh Tao,Tanote,Artificial,2024-05-30,1,5,18,OLA,NA,NA
+Koh Tao,Tanote,Artificial,2024-05-30,1,5,18,AB,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,19,PLATY,FBL,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,20,MISC,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,21,MISC,NA,NA
@@ -24549,7 +24549,7 @@ Koh Tao,Tanote,Artificial,2024-05-30,1,5,27,MISC,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,28,MISC,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,29,MISC,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,30,MISC,NA,NA
-Koh Tao,Tanote,Artificial,2024-05-30,1,5,31,PLATY,FBL,NA
+Koh Tao,Tanote,Artificial,2024-05-30,1,5,31,OLA,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,32,AB,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,33,MISC,NA,NA
 Koh Tao,Tanote,Artificial,2024-05-30,1,5,34,MISC,NA,NA
@@ -36393,7 +36393,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,1,31,FAVI,H,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,1,32,AB,NA,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,1,33,AB,NA,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,1,34,AB,NA,1
-Koh Tao,Tanote,Natural,2024-04-21,NA,1,35,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-04-21,NA,1,35,AB,NA,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,1,36,AB,NA,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,1,37,AB,NA,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,1,38,AB,NA,1
@@ -36427,7 +36427,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,2,25,ACRO,H,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,2,26,ACRO,H,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,2,27,ACRO,H,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,2,28,ACRO,H,1
-Koh Tao,Tanote,Natural,2024-04-21,NA,2,29,UNKN,H,1
+Koh Tao,Tanote,Natural,2024-04-21,NA,2,29,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,2,30,ACRO,H,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,2,31,ACRO,H,1
 Koh Tao,Tanote,Natural,2024-04-21,NA,2,32,ACRO,H,1
@@ -36936,7 +36936,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,15,14,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,15,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,16,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,17,AB,NA,2
-Koh Tao,Tanote,Natural,2024-04-21,NA,15,18,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-04-21,NA,15,18,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,19,ACRO,PBL,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,20,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,21,AB,NA,2
@@ -36960,7 +36960,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,15,38,ACRO,PRK,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,39,PAVO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,15,40,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,16,1,AB,NA,2
-Koh Tao,Tanote,Natural,2024-04-21,NA,16,2,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-04-21,NA,16,2,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,16,3,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,16,4,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,16,5,AB,NA,2
@@ -37069,7 +37069,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,18,27,LOBO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,18,28,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,18,29,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,18,30,AB,NA,2
-Koh Tao,Tanote,Natural,2024-04-21,NA,18,31,UNKN,H,2
+Koh Tao,Tanote,Natural,2024-04-21,NA,18,31,POR,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,18,32,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,18,33,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,18,34,LOBO,H,2
@@ -37091,7 +37091,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,19,9,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,10,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,11,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,12,ACRO,H,2
-Koh Tao,Tanote,Natural,2024-04-21,NA,19,13,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-04-21,NA,19,13,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,14,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,15,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,16,PAVO,H,2
@@ -37104,7 +37104,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,19,22,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,23,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,24,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,25,ACRO,H,2
-Koh Tao,Tanote,Natural,2024-04-21,NA,19,26,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-04-21,NA,19,26,AB,NA,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,27,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,28,ACRO,H,2
 Koh Tao,Tanote,Natural,2024-04-21,NA,19,29,ACRO,H,2
@@ -37272,7 +37272,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,23,30,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,23,31,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,23,32,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,23,33,AB,NA,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,23,34,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,23,34,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,23,35,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,23,36,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,23,37,AB,NA,3
@@ -37447,7 +37447,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,28,5,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,28,6,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,28,7,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,28,8,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,28,9,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,28,9,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,28,10,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,28,11,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,28,12,DIPLO,H,3
@@ -37483,8 +37483,8 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,29,1,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,2,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,3,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,4,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,29,5,UNKN,NA,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,29,6,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,29,5,MISC,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,29,6,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,7,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,8,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,9,MISC,NA,3
@@ -37502,7 +37502,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,29,20,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,21,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,22,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,23,UNKN,NA,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,29,24,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,29,24,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,25,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,26,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,27,DIPLO,H,3
@@ -37514,7 +37514,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,29,32,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,33,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,34,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,35,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,29,36,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,29,36,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,37,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,38,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,29,39,DIPLO,H,3
@@ -37523,7 +37523,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,30,1,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,2,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,3,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,4,AB,NA,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,30,5,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,30,5,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,6,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,7,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,8,AB,NA,3
@@ -37535,7 +37535,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,30,13,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,14,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,15,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,16,AB,NA,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,30,17,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,30,17,PLATY,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,18,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,19,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,20,AB,NA,3
@@ -37545,16 +37545,16 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,30,23,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,24,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,25,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,26,POR,PBL,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,30,27,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,30,27,LOBO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,28,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,29,AB,NA,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,30,30,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,30,30,PLATY,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,31,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,32,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,33,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,34,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,35,ACRO,H,3
-Koh Tao,Tanote,Natural,2024-04-21,NA,30,36,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-04-21,NA,30,36,LOBO,H,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,37,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,38,AB,NA,3
 Koh Tao,Tanote,Natural,2024-04-21,NA,30,39,PLATY,H,3
@@ -37574,7 +37574,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,31,12,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,31,13,MERU,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,31,14,PAVO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,31,15,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,31,16,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,31,16,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,31,17,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,31,18,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,31,19,PLATY,PBL,4
@@ -37601,21 +37601,21 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,31,39,PLATY,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,31,40,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,1,ACRO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,2,PAVO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,3,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,4,UNKN,H,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,3,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,4,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,5,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,6,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,6,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,7,LOBO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,8,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,9,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,8,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,9,PAVO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,10,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,11,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,12,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,13,UNKN,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,14,UNKN,H,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,12,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,13,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,14,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,15,ACRO,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,16,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,17,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,17,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,18,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,19,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,20,ACRO,H,4
@@ -37628,13 +37628,13 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,32,26,ACRO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,27,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,28,ACRO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,29,LOBO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,30,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,31,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,30,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,31,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,32,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,33,PLATY,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,34,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,35,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,32,36,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,34,PAVO,H,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,35,PAVO,H,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,32,36,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,37,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,38,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,32,39,POR,H,4
@@ -37644,7 +37644,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,33,2,MERU,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,3,PLATY,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,4,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,5,POR,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,33,6,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,33,6,LOBO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,7,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,8,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,9,PLATY,H,4
@@ -37652,13 +37652,13 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,33,10,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,11,PLATY,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,12,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,13,LOBO,PRK,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,33,14,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,33,14,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,15,PLATY,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,16,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,17,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,18,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,19,LOBO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,33,20,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,33,20,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,21,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,22,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,23,AB,NA,4
@@ -37670,14 +37670,14 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,33,28,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,29,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,30,POR,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,31,MISC,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,33,32,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,33,32,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,33,PLATY,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,34,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,35,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,36,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,37,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,38,POR,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,33,39,UNKN,H,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,33,39,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,33,40,LOBO,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,1,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,2,ACRO,H,4
@@ -37685,18 +37685,18 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,34,3,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,4,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,5,ACRO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,6,ASTREO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,34,7,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,34,7,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,8,ASTREO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,9,PLATY,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,10,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,11,ASTREO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,34,12,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,34,12,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,13,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,14,ASTREO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,15,ASTREO,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,16,ASTREO,PRK,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,34,17,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,34,18,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,34,17,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,34,18,PLATY,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,19,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,20,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,21,AB,NA,4
@@ -37704,7 +37704,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,34,22,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,23,ASTREO,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,24,ASTREO,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,25,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,34,26,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,34,26,ASTREO,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,27,ASTREO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,28,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,29,PLATY,PBL,4
@@ -37714,49 +37714,49 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,34,32,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,33,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,34,ACRO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,35,PLATY,FRK,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,34,36,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,34,36,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,37,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,38,ASTREO,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,34,39,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,34,40,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,34,40,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,1,PLATY,PBL,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,2,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,2,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,3,PLATY,FBL,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,4,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,5,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,6,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,4,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,5,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,6,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,7,PLATY,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,8,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,9,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,10,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,11,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,12,PLATY,PBL,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,13,UNKN,H,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,13,POR,FRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,14,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,15,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,15,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,16,POR,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,17,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,17,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,18,PLATY,FBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,19,POR,PRK,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,20,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,20,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,21,PLATY,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,22,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,23,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,24,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,25,PAVO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,26,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,27,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,26,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,27,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,28,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,29,LOBO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,30,PLATY,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,31,PLATY,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,32,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,33,PLATY,PBL,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,34,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,34,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,35,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,36,POR,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,37,PAVO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,35,38,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,35,38,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,39,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,35,40,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,1,DIPLO,H,4
@@ -37764,25 +37764,25 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,36,2,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,3,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,4,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,5,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,6,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,6,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,7,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,8,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,9,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,10,UNKN,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,11,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,9,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,10,MISC,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,11,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,12,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,13,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,14,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,15,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,16,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,16,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,17,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,18,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,18,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,19,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,20,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,21,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,22,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,23,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,24,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,24,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,25,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,26,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,27,DIPLO,H,4
@@ -37791,14 +37791,14 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,36,29,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,30,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,31,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,32,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,33,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,33,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,34,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,35,AB,NA,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,36,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,36,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,37,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,38,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,36,39,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,36,40,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,36,40,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,1,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,2,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,3,DIPLO,H,4
@@ -37808,7 +37808,7 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,37,6,POR,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,7,POR,PRK,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,8,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,9,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,37,10,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,37,10,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,11,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,12,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,37,13,AB,NA,4
@@ -37874,9 +37874,9 @@ Koh Tao,Tanote,Natural,2024-04-21,NA,38,32,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,38,33,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,38,34,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,38,35,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,38,36,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,38,36,AB,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,38,37,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-04-21,NA,38,38,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-04-21,NA,38,38,OLA,NA,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,38,39,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,38,40,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-04-21,NA,39,1,AB,NA,4
@@ -38043,7 +38043,7 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,3,1,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,3,2,PLATY,PBL,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,3,3,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,3,4,DIPLO,H,1
-Koh Tao,Tanote,Natural,2024-05-30,NA,3,5,UNKN,FBL,1
+Koh Tao,Tanote,Natural,2024-05-30,NA,3,5,POR,FBL,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,3,6,FAVI,PBL,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,3,7,PLATY,PBL,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,3,8,DIPLO,H,1
@@ -38311,7 +38311,7 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,9,29,AB,NA,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,9,30,AB,NA,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,9,31,PLATY,H,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,9,32,LEPTA,H,1
-Koh Tao,Tanote,Natural,2024-05-30,NA,9,33,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-05-30,NA,9,33,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,9,34,AB,NA,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,9,35,GALA,PBL,1
 Koh Tao,Tanote,Natural,2024-05-30,NA,9,36,GALA,PBL,1
@@ -38484,7 +38484,7 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,14,2,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,3,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,4,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,5,AB,NA,2
-Koh Tao,Tanote,Natural,2024-05-30,NA,14,6,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-05-30,NA,14,6,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,7,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,8,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,9,POR,PBL,2
@@ -38492,7 +38492,7 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,14,10,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,11,POR,H,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,12,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,13,MISC,NA,2
-Koh Tao,Tanote,Natural,2024-05-30,NA,14,14,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-05-30,NA,14,14,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,15,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,16,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,14,17,AB,NA,2
@@ -38599,14 +38599,14 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,16,37,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,16,38,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,16,39,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,16,40,AB,NA,2
-Koh Tao,Tanote,Natural,2024-05-30,NA,17,1,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-05-30,NA,17,1,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,2,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,3,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,4,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,5,PLATY,H,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,6,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,7,AB,NA,2
-Koh Tao,Tanote,Natural,2024-05-30,NA,17,8,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-05-30,NA,17,8,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,9,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,10,AB,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,17,11,DIPLO,H,2
@@ -38762,7 +38762,7 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,20,40,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-05-30,NA,21,1,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,21,2,GONIA,FBL,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,21,3,MONTI,FBL,3
-Koh Tao,Tanote,Natural,2024-05-30,NA,21,4,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-05-30,NA,21,4,AB,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,21,5,MONTI,FBL,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,21,6,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,21,7,AB,NA,3
@@ -38821,7 +38821,7 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,22,19,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,22,20,PLATY,FBL,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,22,21,AB,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,22,22,PLATY,FBL,3
-Koh Tao,Tanote,Natural,2024-05-30,NA,22,23,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-05-30,NA,22,23,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,22,24,AB,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,22,25,PAVO,H,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,22,26,PLATY,FBL,3
@@ -39058,7 +39058,7 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,28,16,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,28,17,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,28,18,AB,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,28,19,AB,NA,3
-Koh Tao,Tanote,Natural,2024-05-30,NA,28,20,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-05-30,NA,28,20,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,28,21,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,28,22,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-05-30,NA,28,23,MISC,NA,3
@@ -39559,17 +39559,17 @@ Koh Tao,Tanote,Natural,2024-05-30,NA,40,37,-,-,4
 Koh Tao,Tanote,Natural,2024-05-30,NA,40,38,-,-,4
 Koh Tao,Tanote,Natural,2024-05-30,NA,40,39,-,-,4
 Koh Tao,Tanote,Natural,2024-05-30,NA,40,40,-,-,4
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,1,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,1,PLATY,PRK,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,2,PLATY,PBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,3,PLATY,PBL,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,4,UNKN,NA,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,5,UNKN,FRK,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,6,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,4,MISC,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,5,PLATY,FRK,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,6,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,7,LOBO,FBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,8,PLATY,PBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,9,OLA,NA,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,10,UNKN,PRK,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,11,UNKN,FRK,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,10,MISC,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,11,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,12,LOBO,FBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,13,PLATY,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,14,DIPSA,FBL,1
@@ -39587,12 +39587,12 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,1,25,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,26,PLATY,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,27,PLATY,FBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,28,PLATY,PBL,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,29,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,29,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,30,LOBO,PBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,31,LOBO,FBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,32,PLATY,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,33,PLATY,FBL,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,1,34,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,1,34,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,35,OLA,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,36,LOBO,FBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,1,37,PLATY,PBL,1
@@ -39666,7 +39666,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,3,24,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,25,AB,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,26,AB,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,27,DIPLO,H,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,3,28,UNKN,PRK,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,3,28,AB,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,29,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,30,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,31,PLATY,H,1
@@ -39674,7 +39674,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,3,32,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,33,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,34,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,35,DIPLO,H,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,3,36,UNKN,PRK,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,3,36,POR,PRK,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,37,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,38,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,3,39,DIPLO,H,1
@@ -39708,7 +39708,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,4,26,AB,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,4,27,AB,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,4,28,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,4,29,MISC,NA,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,4,30,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,4,30,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,4,31,AB,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,4,32,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,4,33,DIPLO,H,1
@@ -39757,7 +39757,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,5,35,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,5,36,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,5,37,OLA,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,5,38,DIPLO,H,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,5,39,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,5,39,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,5,40,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,1,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,2,ECHINOPO,FRK,1
@@ -39778,7 +39778,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,6,16,POR,PRK,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,17,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,18,ECHINOPO,FBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,19,POR,PRK,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,6,20,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,6,20,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,21,ECHINOPO,FRK,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,22,GONIA,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,23,ECHINOPO,PRK,1
@@ -39791,7 +39791,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,6,29,ECHINOPO,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,30,ECHINOPO,FBL,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,31,ECHINOPO,PRK,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,32,ECHINOPO,H,1
-Koh Tao,Tanote,Natural,2024-07-31,NA,6,33,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-07-31,NA,6,33,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,34,GONIA,H,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,35,ECHINOPO,FRK,1
 Koh Tao,Tanote,Natural,2024-07-31,NA,6,36,MISC,NA,1
@@ -40080,22 +40080,22 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,13,38,OLA,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,13,39,AB,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,13,40,AB,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,1,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,2,UNKN,NA,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,3,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,2,MISC,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,3,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,4,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,5,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,6,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,7,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,7,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,8,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,9,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,10,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,11,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,12,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,13,UNKN,NA,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,14,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,13,DIPLO,FRK,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,14,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,15,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,16,MISC,NA,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,17,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,17,DIPLO,FRK,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,18,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,19,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,20,DIPLO,H,2
@@ -40104,17 +40104,17 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,14,22,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,23,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,24,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,25,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,26,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,26,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,27,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,28,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,29,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,29,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,30,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,31,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,32,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,33,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,33,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,34,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,35,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,14,36,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,14,36,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,37,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,38,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,14,39,DIPLO,H,2
@@ -40203,7 +40203,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,17,1,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,2,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,3,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,4,POR,PBL,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,17,5,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,17,5,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,6,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,7,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,8,POR,H,2
@@ -40221,8 +40221,8 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,17,19,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,20,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,21,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,22,POR,PBL,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,17,23,UNKN,NA,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,17,24,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,17,23,POR,PBL,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,17,24,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,25,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,26,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,17,27,PAVO,H,2
@@ -40309,7 +40309,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,19,27,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,19,28,AB,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,19,29,AB,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,19,30,AB,NA,2
-Koh Tao,Tanote,Natural,2024-07-31,NA,19,31,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-07-31,NA,19,31,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,19,32,AB,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,19,33,AB,NA,2
 Koh Tao,Tanote,Natural,2024-07-31,NA,19,34,AB,NA,2
@@ -40624,7 +40624,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,27,22,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,23,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,24,GONIA,FBL,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,25,AB,NA,3
-Koh Tao,Tanote,Natural,2024-07-31,NA,27,26,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-07-31,NA,27,26,PAVO,H,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,27,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,28,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,29,AB,NA,3
@@ -40632,8 +40632,8 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,27,30,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,31,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,32,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,33,POR,H,3
-Koh Tao,Tanote,Natural,2024-07-31,NA,27,34,UNKN,NA,3
-Koh Tao,Tanote,Natural,2024-07-31,NA,27,35,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-07-31,NA,27,34,MISC,NA,3
+Koh Tao,Tanote,Natural,2024-07-31,NA,27,35,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,36,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,37,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,27,38,AB,NA,3
@@ -40694,11 +40694,11 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,29,12,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,13,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,14,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,15,AB,NA,3
-Koh Tao,Tanote,Natural,2024-07-31,NA,29,16,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-07-31,NA,29,16,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,17,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,18,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,19,AB,NA,3
-Koh Tao,Tanote,Natural,2024-07-31,NA,29,20,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-07-31,NA,29,20,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,21,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,22,PLATY,PRK,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,23,AB,NA,3
@@ -40711,7 +40711,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,29,29,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,30,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,31,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,32,AB,NA,3
-Koh Tao,Tanote,Natural,2024-07-31,NA,29,33,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-07-31,NA,29,33,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,34,AB,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,35,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-07-31,NA,29,36,AB,NA,3
@@ -40962,11 +40962,11 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,35,40,-,-,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,1,LOBO,PBL,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,2,AB,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,3,LOBO,PBL,4
-Koh Tao,Tanote,Natural,2024-07-31,NA,36,4,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-07-31,NA,36,4,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,5,AB,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,6,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,7,GONIA,FBL,4
-Koh Tao,Tanote,Natural,2024-07-31,NA,36,8,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-07-31,NA,36,8,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,9,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,10,AB,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,36,11,GONIA,PBL,4
@@ -41051,7 +41051,7 @@ Koh Tao,Tanote,Natural,2024-07-31,NA,38,9,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,38,10,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,38,11,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,38,12,AB,NA,4
-Koh Tao,Tanote,Natural,2024-07-31,NA,38,13,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-07-31,NA,38,13,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,38,14,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,38,15,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-07-31,NA,38,16,DIPLO,H,4
@@ -41172,16 +41172,16 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,1,10,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,11,LOBO,FBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,12,POR,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,13,AB,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,1,14,UNKN,FBL,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,1,14,POR,FBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,15,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,16,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,17,LOBO,FBL,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,1,18,UNKN,FRK,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,1,18,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,19,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,20,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,21,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,22,AB,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,1,23,UNKN,FBL,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,1,23,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,24,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,25,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,1,26,LOBO,FBL,1
@@ -41213,7 +41213,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,2,11,PLATY,FBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,12,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,13,PLATY,FBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,14,PLATY,FBL,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,2,15,UNKN,H,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,2,15,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,16,PLATY,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,17,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,18,PAVO,H,1
@@ -41225,7 +41225,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,2,23,PAVO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,24,PLATY,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,25,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,26,PLATY,FBL,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,2,27,UNKN,FBL,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,2,27,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,28,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,29,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,30,MISC,NA,1
@@ -41236,7 +41236,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,2,34,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,35,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,36,PLATY,FBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,37,MISC,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,2,38,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,2,38,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,39,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,2,40,POR,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,3,1,AB,NA,1
@@ -41277,10 +41277,10 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,3,35,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,3,36,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,3,37,OLA,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,3,38,DIPLO,H,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,3,39,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,3,39,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,3,40,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,4,1,MISC,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,4,2,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,4,2,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,4,3,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,4,4,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,4,5,MISC,NA,1
@@ -41321,11 +41321,11 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,4,39,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,4,40,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,1,POCIL,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,2,AB,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,5,3,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,5,3,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,4,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,5,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,6,AB,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,5,7,UNKN,PBL,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,5,7,PLATY,PRK,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,8,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,9,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,10,AB,NA,1
@@ -41347,7 +41347,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,5,25,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,26,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,27,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,28,AB,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,5,29,UNKN,H,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,5,29,PLATY,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,30,ACRO,PRK,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,31,ACRO,PRK,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,5,32,PLATY,FBL,1
@@ -41486,7 +41486,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,9,4,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,9,5,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,9,6,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,9,7,DIPLO,H,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,9,8,UNKN,H,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,9,8,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,9,9,DIPLO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,9,10,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,9,11,AB,NA,1
@@ -41526,23 +41526,23 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,10,4,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,5,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,6,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,7,AB,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,10,8,UNKN,H,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,10,8,POR,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,9,AB,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,10,10,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,10,10,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,11,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,12,PLATY,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,13,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,14,LOBO,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,15,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,16,PLATY,H,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,10,17,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,10,17,PLATY,FRK,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,18,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,19,PLATY,FBL,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,10,20,UNKN,NA,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,10,21,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,10,20,POR,H,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,10,21,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,22,LOBO,H,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,23,POR,H,1
-Koh Tao,Tanote,Natural,2024-08-18,NA,10,24,UNKN,NA,1
+Koh Tao,Tanote,Natural,2024-08-18,NA,10,24,MISC,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,25,POR,PBL,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,26,AB,NA,1
 Koh Tao,Tanote,Natural,2024-08-18,NA,10,27,AB,NA,1
@@ -41570,7 +41570,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,11,8,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,11,9,ASTREO,FBL,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,11,10,PLATY,PBL,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,11,11,AB,NA,2
-Koh Tao,Tanote,Natural,2024-08-18,NA,11,12,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-08-18,NA,11,12,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,11,13,AB,NA,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,11,14,LEPTA,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,11,15,AB,NA,2
@@ -41735,10 +41735,10 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,15,13,FAVI,PBL,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,14,POR,PBL,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,15,FAVI,PBL,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,16,AB,NA,2
-Koh Tao,Tanote,Natural,2024-08-18,NA,15,17,UNKN,H,2
+Koh Tao,Tanote,Natural,2024-08-18,NA,15,17,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,18,FAVI,PRK,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,19,FAVI,H,2
-Koh Tao,Tanote,Natural,2024-08-18,NA,15,20,UNKN,H,2
+Koh Tao,Tanote,Natural,2024-08-18,NA,15,20,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,21,AB,NA,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,22,DIPLO,FRK,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,23,FAVI,H,2
@@ -41761,7 +41761,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,15,39,PLATY,FBL,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,15,40,FAVI,FBL,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,1,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,2,DIPLO,H,2
-Koh Tao,Tanote,Natural,2024-08-18,NA,16,3,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-08-18,NA,16,3,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,4,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,5,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,6,DIPLO,H,2
@@ -41769,7 +41769,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,16,7,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,8,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,9,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,10,AB,NA,2
-Koh Tao,Tanote,Natural,2024-08-18,NA,16,11,UNKN,NA,2
+Koh Tao,Tanote,Natural,2024-08-18,NA,16,11,MISC,NA,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,12,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,13,DIPLO,H,2
 Koh Tao,Tanote,Natural,2024-08-18,NA,16,14,DIPLO,H,2
@@ -41993,7 +41993,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,21,31,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,21,32,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,21,33,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,21,34,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,21,35,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,21,35,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,21,36,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,21,37,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,21,38,AB,NA,3
@@ -42041,7 +42041,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,22,39,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,22,40,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,1,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,2,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,23,3,UNKN,FBL,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,23,3,POR,FBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,4,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,5,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,6,DIPLO,H,3
@@ -42053,9 +42053,9 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,23,11,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,12,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,13,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,14,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,23,15,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,23,15,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,16,POR,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,23,17,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,23,17,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,18,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,19,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,20,DIPLO,H,3
@@ -42067,7 +42067,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,23,25,POR,PBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,26,POR,PBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,27,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,28,POR,PBL,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,23,29,UNKN,PBL,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,23,29,POR,FRK,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,30,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,31,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,32,DIPLO,H,3
@@ -42081,34 +42081,34 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,23,39,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,23,40,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,1,PAVO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,2,OLA,NA,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,3,UNKN,PRK,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,3,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,4,AB,NA,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,5,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,5,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,6,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,7,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,8,OLA,NA,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,9,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,9,PLATY,FBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,10,FAVI,PBL,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,11,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,11,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,12,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,13,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,14,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,15,OLA,NA,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,16,UNKN,PBL,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,16,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,17,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,18,OLA,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,19,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,20,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,20,OLA,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,21,POR,PRK,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,22,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,23,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,23,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,24,FAVI,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,25,PLATY,FBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,26,FAVI,PBL,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,27,UNKN,PBL,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,27,POR,PBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,28,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,29,AB,NA,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,24,30,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,24,30,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,31,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,32,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,24,33,OLA,NA,3
@@ -42176,7 +42176,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,26,14,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,26,15,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,26,16,ACRO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,26,17,DIPLO,FRK,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,26,18,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,26,18,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,26,19,POCIL,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,26,20,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,26,21,POR,FBL,3
@@ -42220,16 +42220,16 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,27,18,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,19,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,20,PLATY,PBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,21,OLA,NA,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,27,22,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,27,22,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,23,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,24,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,25,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,27,26,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,27,26,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,27,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,28,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,29,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,30,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,27,31,UNKN,NA,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,27,31,MISC,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,32,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,33,OLA,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,27,34,DIPLO,H,3
@@ -42279,9 +42279,9 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,28,37,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,28,38,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,28,39,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,28,40,DIPLO,PBL,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,29,1,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,29,1,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,29,2,DIPLO,H,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,29,3,UNKN,PBL,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,29,3,POR,PRK,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,29,4,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,29,5,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,29,6,DIPLO,H,3
@@ -42320,14 +42320,14 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,29,38,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,29,39,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,29,40,DIPLO,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,1,FAVI,PRK,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,30,2,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,30,2,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,3,FAVI,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,4,OLA,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,5,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,6,LOBO,FRK,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,7,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,8,MISC,NA,3
-Koh Tao,Tanote,Natural,2024-08-18,NA,30,9,UNKN,H,3
+Koh Tao,Tanote,Natural,2024-08-18,NA,30,9,POR,H,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,10,FAVI,PBL,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,11,AB,NA,3
 Koh Tao,Tanote,Natural,2024-08-18,NA,30,12,FAVI,PRK,3
@@ -42401,26 +42401,26 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,31,39,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,31,40,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,1,OLA,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,2,MONTI,H,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,32,3,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,32,3,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,4,OLA,NA,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,32,5,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,32,5,PLATY,FBL,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,6,POR,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,7,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,8,GONIA,FRK,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,9,GONIA,PRK,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,10,POR,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,11,OLA,NA,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,32,12,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,32,12,PLATY,PRK,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,13,PAVO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,14,OLA,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,15,MONTI,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,16,GONIA,PRK,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,32,17,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,32,17,PLATY,PRK,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,18,GONIA,FRK,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,19,PAVO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,20,POR,H,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,32,21,UNKN,H,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,32,22,UNKN,H,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,32,21,LOBO,H,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,32,22,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,23,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,24,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,32,25,AB,NA,4
@@ -42480,16 +42480,16 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,33,38,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,33,39,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,33,40,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,1,OLA,NA,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,34,2,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,34,2,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,3,PAVO,PBL,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,4,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,5,PLATY,PBL,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,6,MONTI,H,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,34,7,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,34,7,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,8,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,9,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,10,PLATY,PBL,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,34,11,UNKN,H,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,34,11,POR,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,12,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,13,PAVO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,34,14,AB,NA,4
@@ -42635,7 +42635,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,37,33,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,37,34,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,37,35,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,37,36,DIPLO,H,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,37,37,UNKN,NA,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,37,37,MISC,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,37,38,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,37,39,DIPLO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,37,40,DIPLO,H,4
@@ -42655,7 +42655,7 @@ Koh Tao,Tanote,Natural,2024-08-18,NA,38,13,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,38,14,POR,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,38,15,LOBO,H,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,38,16,AB,NA,4
-Koh Tao,Tanote,Natural,2024-08-18,NA,38,17,UNKN,FBL,4
+Koh Tao,Tanote,Natural,2024-08-18,NA,38,17,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,38,18,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,38,19,AB,NA,4
 Koh Tao,Tanote,Natural,2024-08-18,NA,38,20,AB,NA,4
@@ -46839,25 +46839,25 @@ Rayong,Rayong,Artificial,2024-05-16,11,4,37,POR,PBL,NA
 Rayong,Rayong,Artificial,2024-05-16,11,4,38,POR,PBL,NA
 Rayong,Rayong,Artificial,2024-05-16,11,4,39,POR,PBL,NA
 Rayong,Rayong,Artificial,2024-05-16,11,4,40,POR,PBL,NA
-Rayong,Rayong,Artificial,2024-05-16,11,5,1,UNKN,FRK,NA
+Rayong,Rayong,Artificial,2024-05-16,11,5,1,PLATY,FRK,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,2,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,3,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,4,PLATY,H,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,5,MISC,NA,NA
-Rayong,Rayong,Artificial,2024-05-16,11,5,6,UNKN,FRK,NA
+Rayong,Rayong,Artificial,2024-05-16,11,5,6,PLATY,FRK,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,7,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,8,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,9,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,10,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,11,MISC,NA,NA
-Rayong,Rayong,Artificial,2024-05-16,11,5,12,UNKN,FRK,NA
+Rayong,Rayong,Artificial,2024-05-16,11,5,12,PLATY,FRK,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,13,PLATY,H,NA
-Rayong,Rayong,Artificial,2024-05-16,11,5,14,UNKN,FRK,NA
-Rayong,Rayong,Artificial,2024-05-16,11,5,15,UNKN,FRK,NA
+Rayong,Rayong,Artificial,2024-05-16,11,5,14,PLATY,FRK,NA
+Rayong,Rayong,Artificial,2024-05-16,11,5,15,PLATY,FRK,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,16,POR,H,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,17,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,18,PLATY,H,NA
-Rayong,Rayong,Artificial,2024-05-16,11,5,19,UNKN,FRK,NA
+Rayong,Rayong,Artificial,2024-05-16,11,5,19,PLATY,FRK,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,20,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,21,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,11,5,22,PLATY,H,NA
@@ -47421,7 +47421,7 @@ Rayong,Rayong,Artificial,2024-05-16,12,9,19,POR,FBL,NA
 Rayong,Rayong,Artificial,2024-05-16,12,9,20,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,12,9,21,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,12,9,22,LEPTA,H,NA
-Rayong,Rayong,Artificial,2024-05-16,12,9,23,UNKN,PRK,NA
+Rayong,Rayong,Artificial,2024-05-16,12,9,23,LOBO,FRK,NA
 Rayong,Rayong,Artificial,2024-05-16,12,9,24,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,12,9,25,POR,FBL,NA
 Rayong,Rayong,Artificial,2024-05-16,12,9,26,MISC,NA,NA
@@ -48106,13 +48106,13 @@ Rayong,Rayong,Artificial,2024-05-16,14,6,24,FAVI,H,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,25,POR,FBL,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,26,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,27,PLATY,H,NA
-Rayong,Rayong,Artificial,2024-05-16,14,6,28,UNKN,NA,NA
+Rayong,Rayong,Artificial,2024-05-16,14,6,28,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,29,PLATY,H,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,30,FAVI,H,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,31,FAVI,H,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,32,DIPSA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,33,DIPSA,H,NA
-Rayong,Rayong,Artificial,2024-05-16,14,6,34,UNKN,NA,NA
+Rayong,Rayong,Artificial,2024-05-16,14,6,34,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,35,POR,FBL,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,36,DIPSA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,14,6,37,MISC,NA,NA
@@ -48361,7 +48361,7 @@ Rayong,Rayong,Artificial,2024-05-16,15,2,39,LEPTA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,2,40,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,1,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,2,COELA,H,NA
-Rayong,Rayong,Artificial,2024-05-16,15,3,3,UNKN,NA,NA
+Rayong,Rayong,Artificial,2024-05-16,15,3,3,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,4,FAVI,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,5,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,6,COELA,H,NA
@@ -48371,13 +48371,13 @@ Rayong,Rayong,Artificial,2024-05-16,15,3,9,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,10,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,11,FAVI,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,12,POR,FRK,NA
-Rayong,Rayong,Artificial,2024-05-16,15,3,13,UNKN,NA,NA
+Rayong,Rayong,Artificial,2024-05-16,15,3,13,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,14,PLATY,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,15,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,16,POR,PRK,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,17,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,18,PLATY,H,NA
-Rayong,Rayong,Artificial,2024-05-16,15,3,19,UNKN,NA,NA
+Rayong,Rayong,Artificial,2024-05-16,15,3,19,MISC,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,20,DIPSA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,21,FAVI,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,3,22,FAVI,H,NA
@@ -48430,7 +48430,7 @@ Rayong,Rayong,Artificial,2024-05-16,15,4,28,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,4,29,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,4,30,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,4,31,COELA,H,NA
-Rayong,Rayong,Artificial,2024-05-16,15,4,32,UNKN,H,NA
+Rayong,Rayong,Artificial,2024-05-16,15,4,32,COEL,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,4,33,AB,NA,NA
 Rayong,Rayong,Artificial,2024-05-16,15,4,34,COELA,H,NA
 Rayong,Rayong,Artificial,2024-05-16,15,4,35,COELA,H,NA
@@ -48742,7 +48742,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,2,20,POR,FBL,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,21,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,22,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,23,ASTREO,FBL,1
-Rayong,Rayong,Natural,2024-05-16,NA,2,24,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,2,24,MISC,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,25,MISC,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,26,DIPSA,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,27,AB,NA,1
@@ -48757,7 +48757,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,2,35,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,36,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,37,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,38,POR,FRK,1
-Rayong,Rayong,Natural,2024-05-16,NA,2,39,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,2,39,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,2,40,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,1,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,2,POR,FRK,1
@@ -48785,14 +48785,14 @@ Rayong,Rayong,Natural,2024-05-16,NA,3,23,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,24,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,25,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,26,POR,PRK,1
-Rayong,Rayong,Natural,2024-05-16,NA,3,27,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,3,27,POR,FBL,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,28,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,29,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,30,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,31,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,32,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,33,POR,PRK,1
-Rayong,Rayong,Natural,2024-05-16,NA,3,34,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,3,34,MISC,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,35,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,36,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,3,37,POR,FRK,1
@@ -48823,7 +48823,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,4,21,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,4,22,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,4,23,POR,FBL,1
 Rayong,Rayong,Natural,2024-05-16,NA,4,24,AB,NA,1
-Rayong,Rayong,Natural,2024-05-16,NA,4,25,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,4,25,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,4,26,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,4,27,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,4,28,POR,FRK,1
@@ -48848,7 +48848,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,5,6,HYD,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,7,HYD,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,8,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,9,POR,FRK,1
-Rayong,Rayong,Natural,2024-05-16,NA,5,10,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,5,10,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,11,HYD,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,12,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,13,AB,NA,1
@@ -48868,7 +48868,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,5,26,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,27,HYD,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,28,HYD,FBL,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,29,HYD,PRK,1
-Rayong,Rayong,Natural,2024-05-16,NA,5,30,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,5,30,POR,FBL,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,31,HYD,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,32,HYD,FBL,1
 Rayong,Rayong,Natural,2024-05-16,NA,5,33,AB,NA,1
@@ -49003,7 +49003,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,9,1,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,2,LOBO,FBL,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,3,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,4,MISC,NA,1
-Rayong,Rayong,Natural,2024-05-16,NA,9,5,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,9,5,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,6,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,7,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,8,POR,FRK,1
@@ -49019,7 +49019,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,9,17,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,18,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,19,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,20,AB,NA,1
-Rayong,Rayong,Natural,2024-05-16,NA,9,21,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,9,21,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,22,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,23,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,24,LOBO,FBL,1
@@ -49030,9 +49030,9 @@ Rayong,Rayong,Natural,2024-05-16,NA,9,28,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,29,POR,PRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,30,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,31,POR,FRK,1
-Rayong,Rayong,Natural,2024-05-16,NA,9,32,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,9,32,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,33,AB,NA,1
-Rayong,Rayong,Natural,2024-05-16,NA,9,34,UNKN,NA,1
+Rayong,Rayong,Natural,2024-05-16,NA,9,34,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,35,POR,FRK,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,36,AB,NA,1
 Rayong,Rayong,Natural,2024-05-16,NA,9,37,POR,FRK,1
@@ -49124,7 +49124,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,12,2,LOBO,FBL,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,3,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,4,POR,PRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,5,POR,FBL,2
-Rayong,Rayong,Natural,2024-05-16,NA,12,6,UNKN,NA,2
+Rayong,Rayong,Natural,2024-05-16,NA,12,6,PLATY,FBL,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,7,POR,FBL,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,8,MISC,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,9,POR,FBL,2
@@ -49145,7 +49145,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,12,23,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,24,POR,PRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,25,POR,PRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,26,POR,PRK,2
-Rayong,Rayong,Natural,2024-05-16,NA,12,27,UNKN,NA,2
+Rayong,Rayong,Natural,2024-05-16,NA,12,27,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,28,POR,PRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,29,POR,PRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,30,AB,NA,2
@@ -49154,7 +49154,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,12,32,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,33,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,34,POR,PRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,35,AB,NA,2
-Rayong,Rayong,Natural,2024-05-16,NA,12,36,UNKN,NA,2
+Rayong,Rayong,Natural,2024-05-16,NA,12,36,PLATY,FBL,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,37,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,38,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,12,39,POR,FRK,2
@@ -49246,7 +49246,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,15,4,POR,PRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,15,5,POR,FRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,15,6,POR,FBL,2
 Rayong,Rayong,Natural,2024-05-16,NA,15,7,POR,FRK,2
-Rayong,Rayong,Natural,2024-05-16,NA,15,8,UNKN,NA,2
+Rayong,Rayong,Natural,2024-05-16,NA,15,8,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,15,9,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,15,10,POR,FRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,15,11,AB,NA,2
@@ -49311,7 +49311,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,16,29,POR,FRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,16,30,POR,FRK,2
 Rayong,Rayong,Natural,2024-05-16,NA,16,31,PECT,FBL,2
 Rayong,Rayong,Natural,2024-05-16,NA,16,32,PAVO,FBL,2
-Rayong,Rayong,Natural,2024-05-16,NA,16,33,UNKN,NA,2
+Rayong,Rayong,Natural,2024-05-16,NA,16,33,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,16,34,PAVO,FBL,2
 Rayong,Rayong,Natural,2024-05-16,NA,16,35,AB,NA,2
 Rayong,Rayong,Natural,2024-05-16,NA,16,36,AB,NA,2
@@ -49502,7 +49502,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,21,20,PAVO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,21,21,LOBO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,21,22,GONIA,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,21,23,GONIA,FRK,3
-Rayong,Rayong,Natural,2024-05-16,NA,21,24,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,21,24,PAVO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,21,25,POR,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,21,26,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,21,27,LOBO,FBL,3
@@ -49542,7 +49542,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,22,20,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,22,21,PLATY,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,22,22,POR,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,22,23,POR,FBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,22,24,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,22,24,MISC,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,22,25,PLATY,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,22,26,POR,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,22,27,POR,FRK,3
@@ -49602,13 +49602,13 @@ Rayong,Rayong,Natural,2024-05-16,NA,23,40,PAVO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,1,PAVO,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,2,POR,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,3,PLATY,FBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,24,4,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,24,4,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,5,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,6,POR,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,7,FAVI,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,8,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,9,POR,PRK,3
-Rayong,Rayong,Natural,2024-05-16,NA,24,10,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,24,10,MISC,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,11,PAVO,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,12,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,13,POR,FRK,3
@@ -49628,7 +49628,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,24,26,FAVI,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,27,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,28,POR,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,29,POR,FRK,3
-Rayong,Rayong,Natural,2024-05-16,NA,24,30,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,24,30,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,31,POR,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,32,FAVI,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,33,POR,FRK,3
@@ -49640,11 +49640,11 @@ Rayong,Rayong,Natural,2024-05-16,NA,24,38,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,39,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,24,40,MISC,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,1,ASTREO,PBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,25,2,UNKN,NA,3
+Rayong,Rayong,Natural,2024-05-16,NA,25,2,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,3,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,4,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,5,ASTREO,FBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,25,6,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,25,6,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,7,POR,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,8,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,9,ASTREO,FBL,3
@@ -49661,9 +49661,9 @@ Rayong,Rayong,Natural,2024-05-16,NA,25,19,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,20,FAVI,H,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,21,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,22,POR,FBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,25,23,UNKN,UNKN,3
-Rayong,Rayong,Natural,2024-05-16,NA,25,24,UNKN,UNKN,3
-Rayong,Rayong,Natural,2024-05-16,NA,25,25,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,25,23,AB,NA,3
+Rayong,Rayong,Natural,2024-05-16,NA,25,24,AB,NA,3
+Rayong,Rayong,Natural,2024-05-16,NA,25,25,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,26,POR,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,27,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,28,ASTREO,PRK,3
@@ -49671,10 +49671,10 @@ Rayong,Rayong,Natural,2024-05-16,NA,25,29,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,30,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,31,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,32,POR,FBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,25,33,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,25,33,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,34,ASTREO,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,35,ASTREO,FBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,25,36,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,25,36,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,37,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,38,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,25,39,ASTREO,FBL,3
@@ -49682,7 +49682,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,25,40,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,26,1,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,26,2,POR,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,26,3,POR,PRK,3
-Rayong,Rayong,Natural,2024-05-16,NA,26,4,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,26,4,AB,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,26,5,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,26,6,PAVO,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,26,7,POR,FBL,3
@@ -49743,9 +49743,9 @@ Rayong,Rayong,Natural,2024-05-16,NA,27,21,MISC,NA,3
 Rayong,Rayong,Natural,2024-05-16,NA,27,22,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,27,23,POR,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,27,24,POR,FBL,3
-Rayong,Rayong,Natural,2024-05-16,NA,27,25,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,27,25,POR,PBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,27,26,POR,FRK,3
-Rayong,Rayong,Natural,2024-05-16,NA,27,27,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,27,27,LOBO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,27,28,LOBO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,27,29,ASTREO,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,27,30,POR,FBL,3
@@ -49831,7 +49831,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,29,29,POR,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,29,30,PLATY,FBL,3
 Rayong,Rayong,Natural,2024-05-16,NA,29,31,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,29,32,POR,PRK,3
-Rayong,Rayong,Natural,2024-05-16,NA,29,33,UNKN,UNKN,3
+Rayong,Rayong,Natural,2024-05-16,NA,29,33,POR,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,29,34,POR,FRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,29,35,FAVI,PRK,3
 Rayong,Rayong,Natural,2024-05-16,NA,29,36,POR,FRK,3
@@ -49930,7 +49930,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,32,8,GONIA,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,32,9,GONIA,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,32,10,PLATY,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,32,11,PODA,FBL,4
-Rayong,Rayong,Natural,2024-05-16,NA,32,12,UNKN,UNKN,4
+Rayong,Rayong,Natural,2024-05-16,NA,32,12,AB,NA,4
 Rayong,Rayong,Natural,2024-05-16,NA,32,13,PLATY,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,32,14,AB,NA,4
 Rayong,Rayong,Natural,2024-05-16,NA,32,15,PODA,FBL,4
@@ -50068,7 +50068,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,35,26,PAVO,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,35,27,POR,PRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,35,28,POR,FRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,35,29,PAVO,FRK,4
-Rayong,Rayong,Natural,2024-05-16,NA,35,30,UNKN,UNKN,4
+Rayong,Rayong,Natural,2024-05-16,NA,35,30,LOBO,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,35,31,PAVO,PRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,35,32,POR,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,35,33,POR,FRK,4
@@ -50083,7 +50083,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,36,1,ASTREO,PRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,36,2,POR,PRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,36,3,POR,PRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,36,4,POR,PRK,4
-Rayong,Rayong,Natural,2024-05-16,NA,36,5,UNKN,UNKN,4
+Rayong,Rayong,Natural,2024-05-16,NA,36,5,AB,NA,4
 Rayong,Rayong,Natural,2024-05-16,NA,36,6,PLATY,PBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,36,7,PLATY,FRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,36,8,ASTREO,FBL,4
@@ -50128,13 +50128,13 @@ Rayong,Rayong,Natural,2024-05-16,NA,37,6,PODA,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,7,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,8,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,9,MERU,FBL,4
-Rayong,Rayong,Natural,2024-05-16,NA,37,10,UNKN,UNKN,4
-Rayong,Rayong,Natural,2024-05-16,NA,37,11,UNKN,UNKN,4
+Rayong,Rayong,Natural,2024-05-16,NA,37,10,MERU,FBL,4
+Rayong,Rayong,Natural,2024-05-16,NA,37,11,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,12,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,13,PAVO,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,14,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,15,MERU,FBL,4
-Rayong,Rayong,Natural,2024-05-16,NA,37,16,UNKN,UNKN,4
+Rayong,Rayong,Natural,2024-05-16,NA,37,16,MISC,NA,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,17,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,18,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,19,MERU,FBL,4
@@ -50155,7 +50155,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,37,33,POR,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,34,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,35,POR,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,36,PAVO,FBL,4
-Rayong,Rayong,Natural,2024-05-16,NA,37,37,UNKN,UNKN,4
+Rayong,Rayong,Natural,2024-05-16,NA,37,37,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,38,MERU,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,39,POR,PRK,4
 Rayong,Rayong,Natural,2024-05-16,NA,37,40,POR,FBL,4
@@ -50212,7 +50212,7 @@ Rayong,Rayong,Natural,2024-05-16,NA,39,10,AB,NA,4
 Rayong,Rayong,Natural,2024-05-16,NA,39,11,PAVO,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,39,12,MISC,NA,4
 Rayong,Rayong,Natural,2024-05-16,NA,39,13,POR,PRK,4
-Rayong,Rayong,Natural,2024-05-16,NA,39,14,UNKN,UNKN,4
+Rayong,Rayong,Natural,2024-05-16,NA,39,14,PLATY,H,4
 Rayong,Rayong,Natural,2024-05-16,NA,39,15,LOBO,FBL,4
 Rayong,Rayong,Natural,2024-05-16,NA,39,16,AB,NA,4
 Rayong,Rayong,Natural,2024-05-16,NA,39,17,PAVO,FBL,4

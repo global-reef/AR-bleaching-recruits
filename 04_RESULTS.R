@@ -136,6 +136,15 @@ q3_summary <- q3_results %>%
 
 write_csv(q3_summary, file.path(stats_dir, "q3_results_summary.csv"))
 
+q3_prop_condition <- q3_condition_quadrat %>%
+     filter(location == "Rayong",
+            genus %in% c("Lobophyllia", "Platygyra", "Porites", "Favites", "Dipsastrea")) %>%
+     group_by(genus, reef_type) %>%
+     summarise(across(all_of(condition_cols), ~ round(mean(.x) * 100, 1)),
+               .groups = "drop") 
+
+write_csv(q3_prop_condition, file.path(stats_dir, "q3_prop_condition.csv"))
+
 ### 03.1 Q3b GENUS-SPECIFIC SITE RESULTS ####
 
 #### Results summary ####

@@ -18,7 +18,7 @@ suppressPackageStartupMessages({
 
 #### Analysis date ####
 
-analysis_date <- "2026.10.07" # change every time 
+analysis_date <- "2026.10.19" # change every time 
 
 #### Directories ####
 
@@ -88,3 +88,4 @@ for (pkg in packages) {
   cat("\n\n###", pkg, "###\n")
   print(citation(pkg))
 }
+
